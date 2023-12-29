@@ -19,14 +19,14 @@
 	// Fields that can be displayed in the table view
 	$x->QueryFieldsTV = [
 		"`Notes`.`ID`" => "ID",
-		"IF(    CHAR_LENGTH(`Supporters1`.`LastName`) || CHAR_LENGTH(`Supporters1`.`MailingName`), CONCAT_WS('',   `Supporters1`.`LastName`, ', ', `Supporters1`.`MailingName`), '') /* Supporter Name */" => "SupporterID",
+		"IF(    CHAR_LENGTH(`Supporters1`.`MailingNameFull`), CONCAT_WS('',   `Supporters1`.`MailingNameFull`), '') /* Supporter Name */" => "SupporterID",
 		"DATE_FORMAT(`Notes`.`Date`, '%c/%e/%Y %l:%i%p')" => "Date",
 		"`Notes`.`Note`" => "Note",
 	];
 	// mapping incoming sort by requests to actual query fields
 	$x->SortFields = [
 		1 => '`Notes`.`ID`',
-		2 => 2,
+		2 => '`Supporters1`.`MailingNameFull`',
 		3 => '`Notes`.`Date`',
 		4 => 4,
 	];
@@ -34,14 +34,14 @@
 	// Fields that can be displayed in the csv file
 	$x->QueryFieldsCSV = [
 		"`Notes`.`ID`" => "ID",
-		"IF(    CHAR_LENGTH(`Supporters1`.`LastName`) || CHAR_LENGTH(`Supporters1`.`MailingName`), CONCAT_WS('',   `Supporters1`.`LastName`, ', ', `Supporters1`.`MailingName`), '') /* Supporter Name */" => "SupporterID",
+		"IF(    CHAR_LENGTH(`Supporters1`.`MailingNameFull`), CONCAT_WS('',   `Supporters1`.`MailingNameFull`), '') /* Supporter Name */" => "SupporterID",
 		"DATE_FORMAT(`Notes`.`Date`, '%c/%e/%Y %l:%i%p')" => "Date",
 		"`Notes`.`Note`" => "Note",
 	];
 	// Fields that can be filtered
 	$x->QueryFieldsFilters = [
 		"`Notes`.`ID`" => "ID",
-		"IF(    CHAR_LENGTH(`Supporters1`.`LastName`) || CHAR_LENGTH(`Supporters1`.`MailingName`), CONCAT_WS('',   `Supporters1`.`LastName`, ', ', `Supporters1`.`MailingName`), '') /* Supporter Name */" => "Supporter Name",
+		"IF(    CHAR_LENGTH(`Supporters1`.`MailingNameFull`), CONCAT_WS('',   `Supporters1`.`MailingNameFull`), '') /* Supporter Name */" => "Supporter Name",
 		"`Notes`.`Date`" => "Date",
 		"`Notes`.`Note`" => "Note",
 	];
@@ -49,7 +49,7 @@
 	// Fields that can be quick searched
 	$x->QueryFieldsQS = [
 		"`Notes`.`ID`" => "ID",
-		"IF(    CHAR_LENGTH(`Supporters1`.`LastName`) || CHAR_LENGTH(`Supporters1`.`MailingName`), CONCAT_WS('',   `Supporters1`.`LastName`, ', ', `Supporters1`.`MailingName`), '') /* Supporter Name */" => "SupporterID",
+		"IF(    CHAR_LENGTH(`Supporters1`.`MailingNameFull`), CONCAT_WS('',   `Supporters1`.`MailingNameFull`), '') /* Supporter Name */" => "SupporterID",
 		"DATE_FORMAT(`Notes`.`Date`, '%c/%e/%Y %l:%i%p')" => "Date",
 		"`Notes`.`Note`" => "Note",
 	];

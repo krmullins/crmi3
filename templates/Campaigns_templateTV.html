@@ -5,7 +5,7 @@
 <!-- add the following to the Campaigns_init() hook (in hooks/Campaigns.php file) -->
 <!--     $options->ShowTableHeader = 0;     -->
 
-		<td id="Campaigns-CampaignName-<%%VALUE(ID)%%>" class="Campaigns-CampaignName"><%%VALUE(CampaignName)%%></td>
+		<td id="Campaigns-CampaignName-<%%VALUE(ID)%%>" class="Campaigns-CampaignName"><%%SELECT%%><%%VALUE(CampaignName)%%><%%ENDSELECT%%></td>
 		<td id="Campaigns-StartDate-<%%VALUE(ID)%%>" class="Campaigns-StartDate"><%%VALUE(StartDate)%%></td>
 		<td id="Campaigns-EndDate-<%%VALUE(ID)%%>" class="Campaigns-EndDate"><%%VALUE(EndDate)%%></td>
 		<td id="Campaigns-Goal-<%%VALUE(ID)%%>" class="Campaigns-Goal text-right"><%%VALUE(Goal)%%></td>

@@ -109,7 +109,7 @@
 			'Supporters' => "`Supporters`.`ID` as 'ID', `Supporters`.`FirstName` as 'FirstName', `Supporters`.`LastName` as 'LastName', `Supporters`.`SpouseName` as 'SpouseName', `Supporters`.`Business` as 'Business', `Supporters`.`Address1` as 'Address1', `Supporters`.`Address2` as 'Address2', `Supporters`.`City` as 'City', `Supporters`.`State` as 'State', `Supporters`.`Zip` as 'Zip', `Supporters`.`Country` as 'Country', CONCAT_WS('-', LEFT(`Supporters`.`Phone`,3), MID(`Supporters`.`Phone`,4,3), RIGHT(`Supporters`.`Phone`,4)) as 'Phone', CONCAT_WS('-', LEFT(`Supporters`.`Cell`,3), MID(`Supporters`.`Cell`,4,3), RIGHT(`Supporters`.`Cell`,4)) as 'Cell', `Supporters`.`Email` as 'Email', `Supporters`.`Status` as 'Status', `Supporters`.`ContactMethod` as 'ContactMethod', `Supporters`.`Grouping` as 'Grouping', `Supporters`.`TotalDonated` as 'TotalDonated', `Supporters`.`TotalMatched` as 'TotalMatched', `Supporters`.`MailingName` as 'MailingName', `Supporters`.`MailingNameFull` as 'MailingNameFull'",
 			'Campaigns' => "`Campaigns`.`ID` as 'ID', `Campaigns`.`CampaignName` as 'CampaignName', DATE_FORMAT(`Campaigns`.`StartDate`, '%h:%i %p') as 'StartDate', DATE_FORMAT(`Campaigns`.`EndDate`, '%h:%i %p') as 'EndDate', CONCAT('$', FORMAT(`Campaigns`.`Goal`, 2)) as 'Goal', DATE_FORMAT(`Campaigns`.`DateClosed`, '%h:%i %p') as 'DateClosed', `Campaigns`.`Status` as 'Status'",
 			'Donations' => "`Donations`.`ID` as 'ID', if(`Donations`.`DonationDate`,date_format(`Donations`.`DonationDate`,'%m/%d/%Y'),'') as 'DonationDate', CONCAT('$', FORMAT(`Donations`.`Amount`, 2)) as 'Amount', `Donations`.`Description` as 'Description', IF(    CHAR_LENGTH(`Supporters1`.`MailingNameFull`), CONCAT_WS('',   `Supporters1`.`MailingNameFull`), '') as 'SupporterID', IF(    CHAR_LENGTH(`Campaigns1`.`CampaignName`), CONCAT_WS('',   `Campaigns1`.`CampaignName`), '') as 'CampaignID', `Donations`.`Paytype` as 'Paytype', `Donations`.`Number` as 'Number', `Donations`.`TransNo` as 'TransNo', `Donations`.`Matching` as 'Matching', `Donations`.`Anonymous` as 'Anonymous', `Donations`.`Acknowledged` as 'Acknowledged', `Donations`.`DonationYear` as 'DonationYear', `Donations`.`Notes` as 'Notes', `Donations`.`MemoryOf` as 'MemoryOf', `Donations`.`HonorOf` as 'HonorOf'",
-			'Notes' => "`Notes`.`ID` as 'ID', IF(    CHAR_LENGTH(`Supporters1`.`LastName`) || CHAR_LENGTH(`Supporters1`.`MailingName`), CONCAT_WS('',   `Supporters1`.`LastName`, ', ', `Supporters1`.`MailingName`), '') as 'SupporterID', DATE_FORMAT(`Notes`.`Date`, '%c/%e/%Y %l:%i%p') as 'Date', `Notes`.`Note` as 'Note'",
+			'Notes' => "`Notes`.`ID` as 'ID', IF(    CHAR_LENGTH(`Supporters1`.`MailingNameFull`), CONCAT_WS('',   `Supporters1`.`MailingNameFull`), '') as 'SupporterID', DATE_FORMAT(`Notes`.`Date`, '%c/%e/%Y %l:%i%p') as 'Date', `Notes`.`Note` as 'Note'",
 			'MatchingFunds' => "`MatchingFunds`.`ID` as 'ID', `MatchingFunds`.`OrganizationName` as 'OrganizationName', CONCAT('$', FORMAT(`MatchingFunds`.`Amount`, 2)) as 'Amount', IF(    CHAR_LENGTH(`Supporters1`.`LastName`) || CHAR_LENGTH(`Supporters1`.`MailingName`), CONCAT_WS('',   `Supporters1`.`LastName`, ', ', `Supporters1`.`MailingName`), '') as 'SupporterID', DATE_FORMAT(`MatchingFunds`.`DateSubmitted`, '%h:%i %p') as 'DateSubmitted', DATE_FORMAT(`MatchingFunds`.`DateReceived`, '%h:%i %p') as 'DateReceived', `MatchingFunds`.`Notes` as 'Notes', IF(    CHAR_LENGTH(`Donations1`.`ID`) || CHAR_LENGTH(`Donations1`.`Amount`), CONCAT_WS('',   `Donations1`.`ID`, ' - ', `Donations1`.`Amount`), '') as 'DonationID', `MatchingFunds`.`Attachment` as 'Attachment'",
 			'Settings' => "`Settings`.`ID` as 'ID', `Settings`.`invoiceYear` as 'invoiceYear'",
 		];
@@ -1129,7 +1129,7 @@ EOT;
 					'forced-where' => '',
 					'display-fields' => [1 => 'Supporter Name', 2 => 'Date', 3 => 'Note'],
 					'display-field-names' => [1 => 'SupporterID', 2 => 'Date', 3 => 'Note'],
-					'sortable-fields' => [0 => '`Notes`.`ID`', 1 => 2, 2 => '`Notes`.`Date`', 3 => 4],
+					'sortable-fields' => [0 => '`Notes`.`ID`', 1 => '`Supporters1`.`MailingNameFull`', 2 => '`Notes`.`Date`', 3 => 4],
 					'records-per-page' => 10,
 					'default-sort-by' => false,
 					'default-sort-direction' => 'asc',
@@ -1138,7 +1138,7 @@ EOT;
 					'show-page-progress' => true,
 					'template' => 'children-Notes',
 					'template-printable' => 'children-Notes-printable',
-					'query' => "SELECT `Notes`.`ID` as 'ID', IF(    CHAR_LENGTH(`Supporters1`.`LastName`) || CHAR_LENGTH(`Supporters1`.`MailingName`), CONCAT_WS('',   `Supporters1`.`LastName`, ', ', `Supporters1`.`MailingName`), '') as 'SupporterID', DATE_FORMAT(`Notes`.`Date`, '%c/%e/%Y %l:%i%p') as 'Date', `Notes`.`Note` as 'Note' FROM `Notes` LEFT JOIN `Supporters` as Supporters1 ON `Supporters1`.`ID`=`Notes`.`SupporterID` "
+					'query' => "SELECT `Notes`.`ID` as 'ID', IF(    CHAR_LENGTH(`Supporters1`.`MailingNameFull`), CONCAT_WS('',   `Supporters1`.`MailingNameFull`), '') as 'SupporterID', DATE_FORMAT(`Notes`.`Date`, '%c/%e/%Y %l:%i%p') as 'Date', `Notes`.`Note` as 'Note' FROM `Notes` LEFT JOIN `Supporters` as Supporters1 ON `Supporters1`.`ID`=`Notes`.`SupporterID` "
 				],
 			],
 			'MatchingFunds' => [

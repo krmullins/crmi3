@@ -2755,7 +2755,7 @@
 				'CampaignID' => 'SELECT `Campaigns`.`ID`, `Campaigns`.`CampaignName` FROM `Campaigns` ORDER BY 2',
 			],
 			'Notes' => [
-				'SupporterID' => 'SELECT `Supporters`.`ID`, IF(CHAR_LENGTH(`Supporters`.`LastName`) || CHAR_LENGTH(`Supporters`.`MailingName`), CONCAT_WS(\'\', `Supporters`.`LastName`, \', \', `Supporters`.`MailingName`), \'\') FROM `Supporters` ORDER BY 2',
+				'SupporterID' => 'SELECT `Supporters`.`ID`, `Supporters`.`MailingNameFull` FROM `Supporters` ORDER BY 2',
 			],
 			'MatchingFunds' => [
 				'SupporterID' => 'SELECT `Supporters`.`ID`, IF(CHAR_LENGTH(`Supporters`.`LastName`) || CHAR_LENGTH(`Supporters`.`MailingName`), CONCAT_WS(\'\', `Supporters`.`LastName`, \', \', `Supporters`.`MailingName`), \'\') FROM `Supporters` ORDER BY 2',

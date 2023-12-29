@@ -5,8 +5,8 @@
 <!-- add the following to the MatchingFunds_init() hook (in hooks/MatchingFunds.php file) -->
 <!--     $options->ShowTableHeader = 0;     -->
 
-		<td id="MatchingFunds-OrganizationName-<%%VALUE(ID)%%>" class="MatchingFunds-OrganizationName"><%%VALUE(OrganizationName)%%></td>
-		<td id="MatchingFunds-Amount-<%%VALUE(ID)%%>" class="MatchingFunds-Amount text-right"><%%VALUE(Amount)%%></td>
+		<td id="MatchingFunds-OrganizationName-<%%VALUE(ID)%%>" class="MatchingFunds-OrganizationName"><%%SELECT%%><%%VALUE(OrganizationName)%%><%%ENDSELECT%%></td>
+		<td id="MatchingFunds-Amount-<%%VALUE(ID)%%>" class="MatchingFunds-Amount text-right"><%%SELECT%%><%%VALUE(Amount)%%><%%ENDSELECT%%></td>
 		<td id="MatchingFunds-SupporterID-<%%VALUE(ID)%%>" class="MatchingFunds-SupporterID"><%%VALUE(SupporterID)%%></td>
 		<td id="MatchingFunds-DateSubmitted-<%%VALUE(ID)%%>" class="MatchingFunds-DateSubmitted"><%%VALUE(DateSubmitted)%%></td>
 		<td id="MatchingFunds-DateReceived-<%%VALUE(ID)%%>" class="MatchingFunds-DateReceived"><%%VALUE(DateReceived)%%></td>
