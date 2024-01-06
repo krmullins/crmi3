@@ -172,6 +172,51 @@
 
 	if($render) $x->Render();
 
+	// column sums
+	if(strpos($x->HTML, '<!-- tv data below -->')) {
+		// if printing multi-selection TV, calculate the sum only for the selected records
+		$record_selector = Request::val('record_selector');
+		if(Request::val('Print_x') && is_array($record_selector)) {
+			$QueryWhere = '';
+			foreach($record_selector as $id) {   // get selected records
+				if($id != '') $QueryWhere .= "'" . makeSafe($id) . "',";
+			}
+			if($QueryWhere != '') {
+				$QueryWhere = 'where `Donations`.`ID` in ('.substr($QueryWhere, 0, -1).')';
+			} else { // if no selected records, write the where clause to return an empty result
+				$QueryWhere = 'where 1=0';
+			}
+		} else {
+			$QueryWhere = $x->QueryWhere;
+		}
+
+		$sumQuery = "SELECT CONCAT('$', FORMAT(SUM(`Donations`.`Amount`), 2)) FROM {$x->QueryFrom} {$QueryWhere}";
+		$res = sql($sumQuery, $eo);
+		if($row = db_fetch_row($res)) {
+			$sumRow = '<tr class="success sum">';
+			if(!Request::val('Print_x')) $sumRow .= '<th class="text-center sum">&sum;</th>';
+			$sumRow .= '<td class="Donations-ID sum"></td>';
+			$sumRow .= '<td class="Donations-DonationDate sum"></td>';
+			$sumRow .= "<td class=\"Donations-Amount text-right sum locale-float\">{$row[0]}</td>";
+			$sumRow .= '<td class="Donations-Description sum"></td>';
+			$sumRow .= '<td class="Donations-SupporterID sum"></td>';
+			$sumRow .= '<td class="Donations-CampaignID sum"></td>';
+			$sumRow .= '<td class="Donations-Paytype sum"></td>';
+			$sumRow .= '<td class="Donations-Number sum"></td>';
+			$sumRow .= '<td class="Donations-TransNo sum"></td>';
+			$sumRow .= '<td class="Donations-Matching sum"></td>';
+			$sumRow .= '<td class="Donations-Anonymous sum"></td>';
+			$sumRow .= '<td class="Donations-Acknowledged sum"></td>';
+			$sumRow .= '<td class="Donations-DonationYear sum"></td>';
+			$sumRow .= '<td class="Donations-Notes sum"></td>';
+			$sumRow .= '<td class="child-MatchingFunds-DonationID child-records-info sum"></td>';
+			$sumRow .= '</tr>';
+
+			$x->HTML = str_replace('<!-- tv data below -->', '', $x->HTML);
+			$x->HTML = str_replace('<!-- tv data above -->', $sumRow, $x->HTML);
+		}
+	}
+
 	// hook: Donations_header
 	$headerCode = '';
 	if(function_exists('Donations_header')) {

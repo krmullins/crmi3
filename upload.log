@@ -1,4 +1,4 @@
-12/27/2023 1:09:32 PM:
+1/5/2024 11:00:40 PM:
 Started uploading files from: C:\xampp\htdocs\crmi3
                           to: https://donorsoft.org/cmri/
 
@@ -10,14 +10,14 @@ Application URL is valid: Ok
 'file-uploader.php' is configured with the correct secret upload key: Ok
 
 Retrieving md5 hashes of local files ...
-12/27/2023 1:09:36 PM: Storing md5 hashes of local files to c:\xampp\htdocs\crmi3\md5s.688220.tmp
-Executing cmd /c ""C:\Program Files (x86)\AppGini\md5sum.exe" -r "c:\xampp\htdocs\crmi3" > "c:\xampp\htdocs\crmi3\md5s.688220.tmp.tmp" && copy "c:\xampp\htdocs\crmi3\md5s.688220.tmp.tmp" "c:\xampp\htdocs\crmi3\md5s.688220.tmp""
-12/27/2023 1:09:39 PM: Finished storing hashes. File contains 654 lines.
-Parsing local md5 hashes temp file: c:\xampp\htdocs\crmi3\md5s.688220.tmp
-Done parsing c:\xampp\htdocs\crmi3\md5s.688220.tmp
+1/5/2024 11:00:47 PM: Storing md5 hashes of local files to c:\xampp\htdocs\crmi3\md5s.453915.tmp
+Executing cmd /c ""C:\Program Files (x86)\AppGini\md5sum.exe" -r "c:\xampp\htdocs\crmi3" > "c:\xampp\htdocs\crmi3\md5s.453915.tmp.tmp" && copy "c:\xampp\htdocs\crmi3\md5s.453915.tmp.tmp" "c:\xampp\htdocs\crmi3\md5s.453915.tmp""
+1/5/2024 11:00:50 PM: Finished storing hashes. File contains 670 lines.
+Parsing local md5 hashes temp file: c:\xampp\htdocs\crmi3\md5s.453915.tmp
+Done parsing c:\xampp\htdocs\crmi3\md5s.453915.tmp
 
 Checking remote file md5 hashes ...
-Lines in remote response: 412
+Lines in remote response: 414
 
 	AdminLTE.zip: fd6f40e6547d7860dae29db4fbf95b33
 	Campaigns_autofill.php: 8c705f6ec97cc7c7a02581428285d056
@@ -30,14 +30,14 @@ Lines in remote response: 412
 	Contacts_dml.php: 9238d3a44df4dad0c99a694cdc0a94f6
 	Contacts_view.php: c5350989d58585f3ba6fb0ebb038ffb4
 	Donations_autofill.php: d7c951b2841180a070127c7d7e0f171e
-	Donations_dml.php: 0da73060f324a7dff867e5d8c68c469b
-	Donations_view.php: 0cf3994568033dfa59a893ff3f2e4a93
+	Donations_dml.php: f6bdfceed71adf94ac72d303cbe9ad08
+	Donations_view.php: 37f2dfa588d92a77f6b8dfb435f8892d
 	MatchingFunds_autofill.php: dffa972df46c0bb62eac8e39a0e3e4cd
 	MatchingFunds_dml.php: 615ea0ddcde68ac0fe543b82ddb4f52b
 	MatchingFunds_view.php: 0f348278fb1b43a5bf8a952b0cd54bf6
 	Notes_autofill.php: ec5ab1d1019cbd32840750b83b272a57
-	Notes_dml.php: 5eaf306f190acd71440aed6a683f9199
-	Notes_view.php: 67b2dd477a64119fc6d461c2e6f15783
+	Notes_dml.php: b931e8b20ebb92a1240011baa08f6db6
+	Notes_view.php: 54e5a91fe2a1dbfa720c13a1d2d1d6c0
 	Settings_autofill.php: c97c70760ab4a700f399fc5110f9f3a0
 	Settings_dml.php: 3d0bbf1af4790f4477f079fc85b9b9bb
 	Settings_view.php: 1ef2232f36380251a67c299a55440d3d
@@ -49,7 +49,7 @@ Lines in remote response: 412
 	ajax_admin_tools.php: f5de1e30e8fe5c4873b673862bbf20e3
 	ajax_check_login.php: 88f0ef238c003ce30e84017a9904cbb8
 	ajax_check_unique.php: 608b0bfc29522c2098d444035225d445
-	ajax_combo.php: fb391449a7e225f3b1d8bcb40d4bcaa4
+	ajax_combo.php: 97a77710fc5570d18fe6220406c0fcc5
 	appginilte: dir
 	appginilte_assign_new_owner.php: 9c001585f4cad06b042b5baf018d7d52
 	appginilte_dash-builder.php: 6434653886bdaf6e9d4e0023071c1c82
@@ -91,29 +91,29 @@ Lines in remote response: 412
 	blank.gif: d3e941fe204d0a9cc5b92782bbf882c8
 	checkMemberID.php: 1595bac4ee58cd0e624313b15ecdea96
 	cli-update-calculated-fields.php: f24bc2b50169cab1a0b49cee4bf4b2f0
-	common.js: 8e23c2e9068e34ea28982c9d3ead9d55
+	common.js: b57196b148d233bec9f9ecaa04604d1a
 	datalist.php: e403c9b40908a3676ad4061599f73ad5
 	db.php: ba957eb4034168abd1b95969b53c31df
 	defaultFilters.php: 7028139ea8892bea46b6c2a8cadffdbd
 	defaultLang.php: f371e14c14c66058f4125c04367a1edc
-	definitions.php: 5697b070a6afb335ea535c6b5485cd20
+	definitions.php: c75886c99c583244dc6ab6d22601efa9
 	donations_invoice.php: d0a703610bcf1dd85aed367d92a78613
-	dynamic.css: d3287c1b9eda02b6b06ab1372195273d
+	dynamic.css: 65da65a2d47870f6aed1027aa3a629c1
 	error_log: 9d2416228f3ec3662108b909cacdccc5
 	footer.php: 89764646b9f08f918403fb08843285a4
 	handshake.svg: 9ab8389fa77ffa0568fd7117a491c44f
 	header.php: f1da22b52bab461a4d108c9ef6acd5bf
-	home.php: 197dbe858328a5851b5e47e03b0668d0
+	home.php: 778effe02a46c0ca9e65ac766d0f2dc9
 	hooks: dir
 	images: dir
 	import-csv: dir
-	import-csv.php: 1ec7a86d8eae519da327d9cfb6bd00bf
-	incCommon.php: 1b94c5863bd6f61109e0fba6098187e6
+	import-csv.php: fa43f06b58280ebde941502fcb065621
+	incCommon.php: 34b63a57d68d5cbcb82f9361b146293b
 	index.html: 985335b37876878a106f93c83496a128
-	index.php: 735ddb526394fe0836e14658382929b3
+	index.php: 05cbee73d8e8067339cf245b48b13214
 	language.php: 5a3e5a15debfa8abd7798632aa3d3c68
 	lib.php: fc1252d0a821b128469af4a2c129234d
-	link.php: 8e7476a31eac2de7f448457c598c2dcb
+	link.php: 47b8e9f925105375d4cf0c300011eb53
 	loading.gif: cb081508c32b52bccacc59781ebbbb36
 	login.php: f2692727d3ce963263f079075b8004c8
 	logo.png: 09caee6e2337a676ef3d810c2b0d6e27
@@ -132,7 +132,7 @@ Lines in remote response: 412
 	table.gif: 742bde42c832e3bf64f1a2abfa122f49
 	templates: dir
 	thumbnail.php: b3b02b42555c913705df9d3e154bf2d3
-	updateDB.php: 86ad459f6d00de35581cf87e9d45b78c
+	updateDB.php: 252c43332e27463a81e541e80d3dd708
 	admin\adminStyles.css: 805d8ad9c34efe062621d6b6a2412ef2
 	admin\ajax-maintenance-mode.php: 7df587f51acb055d5e670c3ed131c56f
 	admin\ajax-saved-sql.php: 76123d627897eaf552a3da94ca43b7b6
@@ -143,8 +143,8 @@ Lines in remote response: 412
 	admin\images: dir
 	admin\incCommon.php: 192171dcbba3419d1f4470dc92cdbadc
 	admin\incFooter.php: 91e01a0119fea165f11e98667ed70477
-	admin\incFunctions.php: 50cbf6e8eb049e8f7a7e3a79035e5f95
-	admin\incHeader.php: f0aae96145b7e1f92c77be0bbd61cbdb
+	admin\incFunctions.php: 7cf4891828eb61a9b0252ede46f3a3c9
+	admin\incHeader.php: 89fb6ac8be64ff821bca927ae9341910
 	admin\index.php: 68ef39cd512ed1f59c5207e60522a23d
 	admin\pageAssignOwners.php: b4dc6bc64d32dd1853a278195a5b533b
 	admin\pageBackupRestore.php: 0eeeea25c4827f28798a59ca71d98110
@@ -156,7 +156,7 @@ Lines in remote response: 412
 	admin\pageEditMember.php: 9824f6b6da7fadb960db277f876e0eb3
 	admin\pageEditMemberPermissions.php: bcb47b73ef45e3aef396b85a37e59156
 	admin\pageEditOwnership.php: 686bfef587a31054b4baf93b46ac5008
-	admin\pageHome.php: 9e6593ba6dda69435dd5affe1a323945
+	admin\pageHome.php: 73cfe6192bc5632a86d8e778fde6d0dd
 	admin\pageInstallPlugin.php: 0ff3c5d9ea8a29b045d6a20e81166173
 	admin\pageMail.php: 0d88950cbc2ab41638d1bccec1b38b92
 	admin\pagePrintRecord.php: 969de92510c6172248b0511b85c0c497
@@ -166,7 +166,7 @@ Lines in remote response: 412
 	admin\pageSQL.js: 8174319679fd7af67be1eb41bfe3a29e
 	admin\pageSQL.php: 326fc666304f70611cc4bd52ed24de31
 	admin\pageSender.php: 97533686358202a70a649de57da9ad0f
-	admin\pageServerStatus.php: 0e1f6f15869e336932db678fdba3698b
+	admin\pageServerStatus.php: 6d52d9b7a78127cf053af1d10b3e74c3
 	admin\pageSettings.php: 673183b1bb121e97ba3d2dc86454297b
 	admin\pageTransferOwnership.php: 14c750f2adcaeff4b2fa816e5116eda9
 	admin\pageTranslation.php: 68bac2b6072dd402bca1ac85b00e18b2
@@ -175,7 +175,7 @@ Lines in remote response: 412
 	admin\pageViewGroups.php: 6712c5da262fe8416e8ba4db45c8afb7
 	admin\pageViewMembers.php: 2f3243b87c468468ce2fcb4a546cfc6a
 	admin\pageViewRecords.php: c616abbb0ede6d8b6e2f498071928616
-	admin\toolTipData.js: 22f5af48941ca9ad46c8b3eae9cf6492
+	admin\toolTipData.js: b7bf0c50062168f58932035208a179fc
 	admin\toolTips.js: 472554a9d175c12018e3a1d5343f60e5
 	admin\images\approve_icon.gif: c037df4dedd61b4b5d77517d05de2020
 	admin\images\data_icon.gif: fb700fe8af24c94f8f917a4402e9b303
@@ -192,12 +192,12 @@ Lines in remote response: 412
 	hooks\Contacts.php: 0e60314b4e8a13293824def50abeb746
 	hooks\Donations-dv.js: 9033119880ce635523a8d2e7135c5448
 	hooks\Donations-tv.js: d3ff02b8d461056d6dd94a2181a5dba6
-	hooks\Donations.php: 79310cc8c31ccb7237711685cb6eb78a
-	hooks\Donations_filter.php: 6520a9e93b04febb4d7ef4acab1497ef
+	hooks\Donations.php: e4b71e0b10cd88c93b582a808c658234
+	hooks\Donations_filter.php: 91327bf6c985333d05e4ce6a09966d3c
 	hooks\MatchingFunds-tv.js: d3ff02b8d461056d6dd94a2181a5dba6
 	hooks\MatchingFunds.php: 3f4a0afc47fb43199ff98839ecef16fa
 	hooks\Notes-tv.js: d3ff02b8d461056d6dd94a2181a5dba6
-	hooks\Notes.php: 60b52b42cf3762c7a18f20437559142e
+	hooks\Notes.php: 6a36534352540d05ba0b83ffd3a17902
 	hooks\Notes_filter.php: 5ba3740d366a10d81465b968853f8928
 	hooks\README.html: 9e3cd3b7860933470ad285da0a26f057
 	hooks\Settings-tv.js: d3ff02b8d461056d6dd94a2181a5dba6
@@ -205,21 +205,23 @@ Lines in remote response: 412
 	hooks\SummaryReport.php: 2f7831b6176d7a7cee9f24685e94dfce
 	hooks\Supporters-dv.js: 5e4b0cf37d96ff26bc86a947029880f1
 	hooks\Supporters-tv.js: d3ff02b8d461056d6dd94a2181a5dba6
-	hooks\Supporters.php: 892f4736a5e454f13adf006930ca19ab
+	hooks\Supporters.php: 0bc27e692d2670ce2dc3161b98051500
 	hooks\Supporters_filter.php: 5f0097ad7c93b60a93abf1c5757e26fe
 	hooks\__global.php: a63bec90feacb37112d131342d99cffa
 	hooks\appginilte_otp.php: 8d5810c1a7b4e90dcf3e921fa369d7aa
-	hooks\footer-extras.php: d41d8cd98f00b204e9800998ecf8427e
-	hooks\header-extras.php: d41d8cd98f00b204e9800998ecf8427e
+	hooks\footer-extras.php: f8c2eb0cea0d6fe66c0df7c1182587fe
+	hooks\header-extras.php: cc95c3a305cc89250a21feceed15a296
 	hooks\index.html: 888ceb5cb76adba60e7c4a255964143e
 	hooks\invoice.php: d4853dcd79eb8859ca5c934c1e4045bc
 	hooks\language-summary-reports.php: 5d667f0920b537aaee64aa780c6fd942
-	hooks\links-home.php: 4ba1d94b19eaf6f4a7617c618d082394
-	hooks\links-navmenu.php: e9e029b40c0ade256e1d6cd6b7dc09a8
+	hooks\links-home.php: 98164a3f094937a94497e616b730e42f
+	hooks\links-navmenu.php: ceb94aecf9242817719300e28442cb50
 	hooks\summary-reports-Donations-0.php: 1e0aaacd3f488711801c4260735b5418
 	hooks\summary-reports-list.php: 2132e132cedc9e3c7ab160157aad1f1d
 	hooks\summary_reports-logo-md.png: 4b093e3c6857e85b87016b2a491c24f7
+	images\DonorSoft-logos.jpeg: 06b6af0010122d775c56604cd40ccbda
 	images\blank.gif: d3e941fe204d0a9cc5b92782bbf882c8
+	images\cmri.jpg: 954fd9f79722aa93ec25b14c345b31e5
 	images\icon.png: 8186714ad0c173206a4e246dae1cb5a9
 	images\index.html: 888ceb5cb76adba60e7c4a255964143e
 	templates\Campaigns-ajax-cache.php: adb390d12b928a24625a9c188eb4ac87
@@ -237,20 +239,20 @@ Lines in remote response: 412
 	templates\Contacts_templateDVP.html: 992ea5220b85de6827ef70b83e586f56
 	templates\Contacts_templateTV.html: c0a702e9519fc4c633256aaec03fbd64
 	templates\Contacts_templateTVS.html: 71e080906e31aa1482dee0a9c4126977
-	templates\Donations-ajax-cache.php: 751f295e5730abb06c44ee3ff3f10461
-	templates\Donations_templateDV.html: 6e05d63a14e9d5d48770ee3e2bf03689
-	templates\Donations_templateDVP.html: 80fd98fd61aa298c4fbe63ad507dea32
-	templates\Donations_templateTV.html: 44960f4103e56a4881163a5393420e74
-	templates\Donations_templateTVS.html: 6138053310ea6c079989e10a4b65a398
+	templates\Donations-ajax-cache.php: b7d0eb5ff6cd6cd6d9caa244bd471e62
+	templates\Donations_templateDV.html: 9d712dce88f60a287bb9748e25c82f24
+	templates\Donations_templateDVP.html: 4eb5ff71cbb49678b4149d92dc2db8ef
+	templates\Donations_templateTV.html: 43e7dfaf9e8b8002213818bf9dab4b9f
+	templates\Donations_templateTVS.html: 0c5f403ec1d1d47ae0116f4feef04827
 	templates\MatchingFunds-ajax-cache.php: 0f52d43d12cecfc72013f04da5b86e28
 	templates\MatchingFunds_templateDV.html: 68574f183820c7dfd2aba3e4763595b0
 	templates\MatchingFunds_templateDVP.html: 8807b9a4ed51b8a01f7f66e7f8c5fd98
 	templates\MatchingFunds_templateTV.html: 8d8eea9dd0ca7c2183753ed860ca2f8a
 	templates\MatchingFunds_templateTVS.html: a6f5afb36cef7277d8bb9576eaebcd75
 	templates\Notes-ajax-cache.php: 6b81f02030597c06d7e3e84fc78d2698
-	templates\Notes_templateDV.html: 618bb2acabc3f88066e007408c0a7737
+	templates\Notes_templateDV.html: 4657f41dff88648a180b77d4bd6e3e1d
 	templates\Notes_templateDVP.html: 7f65570b6baed66f9e74cd1395b66b68
-	templates\Notes_templateTV.html: f2f46c81aa2f345a8bde50ea03175969
+	templates\Notes_templateTV.html: 886ec948c6628698c1aad0f09b350906
 	templates\Notes_templateTVS.html: 24761595ac62685084aebd58963c70de
 	templates\Settings-ajax-cache.php: b102f213f0dee60b7ca4027d52244bb5
 	templates\Settings_templateDV.html: 1cc1224797b61f1a4b5e4e130e10c226
@@ -268,8 +270,8 @@ Lines in remote response: 412
 	templates\children-Catalog.php: a86c71ef5433606ff9ab1a1232ee8a4e
 	templates\children-Contacts-printable.php: a047386a62bd15fbc108fc32a5372b4c
 	templates\children-Contacts.php: f09149c9398d327c5d38fd13646c8de8
-	templates\children-Donations-printable.php: 819f5874d522e7f7b3b92a3b98839fc5
-	templates\children-Donations.php: a197140889b8ac3df23d91a8e04c9190
+	templates\children-Donations-printable.php: a5787d21cf5ef428ce99618972820a01
+	templates\children-Donations.php: 275248edd3a5bdc5d95bae020ae94c04
 	templates\children-MatchingFunds-printable.php: 4767a869b76d8dc66feaefc8dad89397
 	templates\children-MatchingFunds.php: 39d4e584d24dcc0e809c0e642f1615fe
 	templates\children-Notes-printable.php: 5a410ef57f070140018ab3fe8dfc312a
@@ -438,7 +440,7 @@ Listing local files ...
 FilePath: .git\COMMIT_EDITMSG
 FolderName: .git\
 FileName: COMMIT_EDITMSG
-LocalMd5Sum: 7bb4a51335222b9e1f6335f984ff2ed8
+LocalMd5Sum: 00932fd20a4d3b29a2b758d61b741e0b
 RemoteMd5Sum: 
 IsExcludedFolder? Yes, .git
 IsExcludedFilePath? No
@@ -647,7 +649,7 @@ Queued for uploading? No
 FilePath: .git\index
 FolderName: .git\
 FileName: index
-LocalMd5Sum: e08ea5da158827e11e732b332767d6c7
+LocalMd5Sum: 19b26b965d8ecc27708ba55663297056
 RemoteMd5Sum: 
 IsExcludedFolder? Yes, .git
 IsExcludedFilePath? No
@@ -669,7 +671,7 @@ Queued for uploading? No
 FilePath: .git\logs\HEAD
 FolderName: .git\logs\
 FileName: HEAD
-LocalMd5Sum: bf21059767e3796dded6019a6830fe00
+LocalMd5Sum: 4fe3a17f2f448412b7c5f8722639663a
 RemoteMd5Sum: 
 IsExcludedFolder? Yes, .git/logs
 IsExcludedFilePath? No
@@ -680,7 +682,7 @@ Queued for uploading? No
 FilePath: .git\logs\refs\heads\main
 FolderName: .git\logs\refs\heads\
 FileName: main
-LocalMd5Sum: bf21059767e3796dded6019a6830fe00
+LocalMd5Sum: 4fe3a17f2f448412b7c5f8722639663a
 RemoteMd5Sum: 
 IsExcludedFolder? Yes, .git/logs/refs/heads
 IsExcludedFilePath? No
@@ -868,6 +870,17 @@ FilePath: .git\objects\0e\35eca5e646f585560b973b48ab0c8e10a5f497
 FolderName: .git\objects\0e\
 FileName: 35eca5e646f585560b973b48ab0c8e10a5f497
 LocalMd5Sum: b0907568b5af067ed99e96d2754c0296
+RemoteMd5Sum: 
+IsExcludedFolder? Yes, .git/objects/0e
+IsExcludedFilePath? No
+IsExcludedFileType? No
+Excluded from uploads? Yes, excluded folder, .git/objects/0e
+Queued for uploading? No
+
+FilePath: .git\objects\0e\700c620d96d5417a4d31a759e5aa55423d70a2
+FolderName: .git\objects\0e\
+FileName: 700c620d96d5417a4d31a759e5aa55423d70a2
+LocalMd5Sum: eb428a8b2d832115648f1f854f05ae65
 RemoteMd5Sum: 
 IsExcludedFolder? Yes, .git/objects/0e
 IsExcludedFilePath? No
@@ -1227,6 +1240,17 @@ IsExcludedFileType? No
 Excluded from uploads? Yes, excluded folder, .git/objects/23
 Queued for uploading? No
 
+FilePath: .git\objects\24\924294b7cf8700df49770988597dbcc3dcda4a
+FolderName: .git\objects\24\
+FileName: 924294b7cf8700df49770988597dbcc3dcda4a
+LocalMd5Sum: 07af00275f33cc1fbfaa4a41eab35fb7
+RemoteMd5Sum: 
+IsExcludedFolder? Yes, .git/objects/24
+IsExcludedFilePath? No
+IsExcludedFileType? No
+Excluded from uploads? Yes, excluded folder, .git/objects/24
+Queued for uploading? No
+
 FilePath: .git\objects\25\602966c833662d15943ff1ef5824ce5d80712e
 FolderName: .git\objects\25\
 FileName: 602966c833662d15943ff1ef5824ce5d80712e
@@ -1535,6 +1559,17 @@ IsExcludedFileType? No
 Excluded from uploads? Yes, excluded folder, .git/objects/3a
 Queued for uploading? No
 
+FilePath: .git\objects\3a\4658cc97ffb4df63b4dd59dba0155cbd5ae752
+FolderName: .git\objects\3a\
+FileName: 4658cc97ffb4df63b4dd59dba0155cbd5ae752
+LocalMd5Sum: 558439989844ba1f4fb2ff3121193d4e
+RemoteMd5Sum: 
+IsExcludedFolder? Yes, .git/objects/3a
+IsExcludedFilePath? No
+IsExcludedFileType? No
+Excluded from uploads? Yes, excluded folder, .git/objects/3a
+Queued for uploading? No
+
 FilePath: .git\objects\3a\f2e3575a89f9c311ef27e42ad71075f359c0e0
 FolderName: .git\objects\3a\
 FileName: f2e3575a89f9c311ef27e42ad71075f359c0e0
@@ -1612,6 +1647,17 @@ IsExcludedFileType? No
 Excluded from uploads? Yes, excluded folder, .git/objects/43
 Queued for uploading? No
 
+FilePath: .git\objects\44\5f13395f305e2029638670d595025af0668fcb
+FolderName: .git\objects\44\
+FileName: 5f13395f305e2029638670d595025af0668fcb
+LocalMd5Sum: 6101d3f9660e40a602b92575f91f56da
+RemoteMd5Sum: 
+IsExcludedFolder? Yes, .git/objects/44
+IsExcludedFilePath? No
+IsExcludedFileType? No
+Excluded from uploads? Yes, excluded folder, .git/objects/44
+Queued for uploading? No
+
 FilePath: .git\objects\45\532fb4d227eba916a4f5e2bc1db7c1d6f64871
 FolderName: .git\objects\45\
 FileName: 532fb4d227eba916a4f5e2bc1db7c1d6f64871
@@ -1654,6 +1700,17 @@ IsExcludedFolder? Yes, .git/objects/49
 IsExcludedFilePath? No
 IsExcludedFileType? No
 Excluded from uploads? Yes, excluded folder, .git/objects/49
+Queued for uploading? No
+
+FilePath: .git\objects\4a\153a3735424adfe3cc3a7b8e9cfdfc2970b7c4
+FolderName: .git\objects\4a\
+FileName: 153a3735424adfe3cc3a7b8e9cfdfc2970b7c4
+LocalMd5Sum: a47f059a4dd02ef08cb028a0926e3979
+RemoteMd5Sum: 
+IsExcludedFolder? Yes, .git/objects/4a
+IsExcludedFilePath? No
+IsExcludedFileType? No
+Excluded from uploads? Yes, excluded folder, .git/objects/4a
 Queued for uploading? No
 
 FilePath: .git\objects\4a\1c17cf273da4c82ffedf97c35aab8e48d87cf9
@@ -2107,6 +2164,17 @@ IsExcludedFileType? No
 Excluded from uploads? Yes, excluded folder, .git/objects/66
 Queued for uploading? No
 
+FilePath: .git\objects\67\32c76080219994224b3c80de8a26098829f766
+FolderName: .git\objects\67\
+FileName: 32c76080219994224b3c80de8a26098829f766
+LocalMd5Sum: ee95f8c0adadf550c50350923ec956ec
+RemoteMd5Sum: 
+IsExcludedFolder? Yes, .git/objects/67
+IsExcludedFilePath? No
+IsExcludedFileType? No
+Excluded from uploads? Yes, excluded folder, .git/objects/67
+Queued for uploading? No
+
 FilePath: .git\objects\68\5ae45baf779b2a410d986ad293b22769f83668
 FolderName: .git\objects\68\
 FileName: 5ae45baf779b2a410d986ad293b22769f83668
@@ -2338,6 +2406,17 @@ IsExcludedFileType? No
 Excluded from uploads? Yes, excluded folder, .git/objects/75
 Queued for uploading? No
 
+FilePath: .git\objects\76\89042563a97c3319ebdf7d7be417a90ba805b2
+FolderName: .git\objects\76\
+FileName: 89042563a97c3319ebdf7d7be417a90ba805b2
+LocalMd5Sum: 9b388534718fbf953389c421635c9dcd
+RemoteMd5Sum: 
+IsExcludedFolder? Yes, .git/objects/76
+IsExcludedFilePath? No
+IsExcludedFileType? No
+Excluded from uploads? Yes, excluded folder, .git/objects/76
+Queued for uploading? No
+
 FilePath: .git\objects\77\9bec4ea70119e41858e0d8baba5192a80502d2
 FolderName: .git\objects\77\
 FileName: 9bec4ea70119e41858e0d8baba5192a80502d2
@@ -2402,6 +2481,17 @@ IsExcludedFolder? Yes, .git/objects/7a
 IsExcludedFilePath? No
 IsExcludedFileType? No
 Excluded from uploads? Yes, excluded folder, .git/objects/7a
+Queued for uploading? No
+
+FilePath: .git\objects\7b\32d2d6522443d9019c3bd2d763742cc57070b9
+FolderName: .git\objects\7b\
+FileName: 32d2d6522443d9019c3bd2d763742cc57070b9
+LocalMd5Sum: cd518ef06864f854fcddc9661b8b7751
+RemoteMd5Sum: 
+IsExcludedFolder? Yes, .git/objects/7b
+IsExcludedFilePath? No
+IsExcludedFileType? No
+Excluded from uploads? Yes, excluded folder, .git/objects/7b
 Queued for uploading? No
 
 FilePath: .git\objects\7b\4e9dffd07739864b5079aefd6241fabef1e081
@@ -2721,6 +2811,17 @@ IsExcludedFolder? Yes, .git/objects/94
 IsExcludedFilePath? No
 IsExcludedFileType? No
 Excluded from uploads? Yes, excluded folder, .git/objects/94
+Queued for uploading? No
+
+FilePath: .git\objects\96\2c0ef71816151d26135748d85962f0ca1da132
+FolderName: .git\objects\96\
+FileName: 2c0ef71816151d26135748d85962f0ca1da132
+LocalMd5Sum: a4ddf4a961c2e5d2ba2bf77266024020
+RemoteMd5Sum: 
+IsExcludedFolder? Yes, .git/objects/96
+IsExcludedFilePath? No
+IsExcludedFileType? No
+Excluded from uploads? Yes, excluded folder, .git/objects/96
 Queued for uploading? No
 
 FilePath: .git\objects\96\3e37d254cb3ee3083e1eb0427b92074d1f1cf4
@@ -3240,6 +3341,17 @@ IsExcludedFileType? No
 Excluded from uploads? Yes, excluded folder, .git/objects/b9
 Queued for uploading? No
 
+FilePath: .git\objects\ba\47d1cebfd6ee019289c90ebb3ad4495ebe3dd1
+FolderName: .git\objects\ba\
+FileName: 47d1cebfd6ee019289c90ebb3ad4495ebe3dd1
+LocalMd5Sum: 0d8520586296759072a14844ae41bca4
+RemoteMd5Sum: 
+IsExcludedFolder? Yes, .git/objects/ba
+IsExcludedFilePath? No
+IsExcludedFileType? No
+Excluded from uploads? Yes, excluded folder, .git/objects/ba
+Queued for uploading? No
+
 FilePath: .git\objects\ba\5caf02835f123a96454ef6f62739bb8b0e23cb
 FolderName: .git\objects\ba\
 FileName: 5caf02835f123a96454ef6f62739bb8b0e23cb
@@ -3295,6 +3407,17 @@ IsExcludedFileType? No
 Excluded from uploads? Yes, excluded folder, .git/objects/bd
 Queued for uploading? No
 
+FilePath: .git\objects\be\2e1bda156bfb9352c7bdd7b2ac146af2cb46ea
+FolderName: .git\objects\be\
+FileName: 2e1bda156bfb9352c7bdd7b2ac146af2cb46ea
+LocalMd5Sum: 68a7f1fa3bc61216b1e88c1312d7a760
+RemoteMd5Sum: 
+IsExcludedFolder? Yes, .git/objects/be
+IsExcludedFilePath? No
+IsExcludedFileType? No
+Excluded from uploads? Yes, excluded folder, .git/objects/be
+Queued for uploading? No
+
 FilePath: .git\objects\bf\d54cdcb78a1adba373b37ea9e0d406d10f29c8
 FolderName: .git\objects\bf\
 FileName: d54cdcb78a1adba373b37ea9e0d406d10f29c8
@@ -3304,6 +3427,17 @@ IsExcludedFolder? Yes, .git/objects/bf
 IsExcludedFilePath? No
 IsExcludedFileType? No
 Excluded from uploads? Yes, excluded folder, .git/objects/bf
+Queued for uploading? No
+
+FilePath: .git\objects\c0\790b9ea7a3e9d4fe7e9c580722028f50d32198
+FolderName: .git\objects\c0\
+FileName: 790b9ea7a3e9d4fe7e9c580722028f50d32198
+LocalMd5Sum: 5ee2824739702d86bb143672b70fbfa4
+RemoteMd5Sum: 
+IsExcludedFolder? Yes, .git/objects/c0
+IsExcludedFilePath? No
+IsExcludedFileType? No
+Excluded from uploads? Yes, excluded folder, .git/objects/c0
 Queued for uploading? No
 
 FilePath: .git\objects\c2\a0332ab953830bae4899f845d717bf7bb8c7bf
@@ -3460,6 +3594,17 @@ IsExcludedFileType? No
 Excluded from uploads? Yes, excluded folder, .git/objects/cb
 Queued for uploading? No
 
+FilePath: .git\objects\cb\7cf828de75e7380d4706a3c883fbfb854f4c23
+FolderName: .git\objects\cb\
+FileName: 7cf828de75e7380d4706a3c883fbfb854f4c23
+LocalMd5Sum: f78aba17ff012d402570f1903a3b4185
+RemoteMd5Sum: 
+IsExcludedFolder? Yes, .git/objects/cb
+IsExcludedFilePath? No
+IsExcludedFileType? No
+Excluded from uploads? Yes, excluded folder, .git/objects/cb
+Queued for uploading? No
+
 FilePath: .git\objects\cb\ae232f51ae97840a165760e8e91f6f98c37892
 FolderName: .git\objects\cb\
 FileName: ae232f51ae97840a165760e8e91f6f98c37892
@@ -3491,6 +3636,28 @@ IsExcludedFolder? Yes, .git/objects/cd
 IsExcludedFilePath? No
 IsExcludedFileType? No
 Excluded from uploads? Yes, excluded folder, .git/objects/cd
+Queued for uploading? No
+
+FilePath: .git\objects\cd\7d80724577fc68ecae3791afae1f770f4d5781
+FolderName: .git\objects\cd\
+FileName: 7d80724577fc68ecae3791afae1f770f4d5781
+LocalMd5Sum: 2fb99444924e6e25f7585956bb9582ae
+RemoteMd5Sum: 
+IsExcludedFolder? Yes, .git/objects/cd
+IsExcludedFilePath? No
+IsExcludedFileType? No
+Excluded from uploads? Yes, excluded folder, .git/objects/cd
+Queued for uploading? No
+
+FilePath: .git\objects\ce\6e9d16c86e27a4044e93f0e9e5e40b491b8263
+FolderName: .git\objects\ce\
+FileName: 6e9d16c86e27a4044e93f0e9e5e40b491b8263
+LocalMd5Sum: f331a79aeae270db2eb9faa04826ccd4
+RemoteMd5Sum: 
+IsExcludedFolder? Yes, .git/objects/ce
+IsExcludedFilePath? No
+IsExcludedFileType? No
+Excluded from uploads? Yes, excluded folder, .git/objects/ce
 Queued for uploading? No
 
 FilePath: .git\objects\d0\62a6f2a2653a8305ff42b239f15b8c0f19670c
@@ -4153,6 +4320,17 @@ IsExcludedFileType? No
 Excluded from uploads? Yes, excluded folder, .git/objects/fe
 Queued for uploading? No
 
+FilePath: .git\objects\ff\0228de85701ed5a44d71a6b0928b1738853c32
+FolderName: .git\objects\ff\
+FileName: 0228de85701ed5a44d71a6b0928b1738853c32
+LocalMd5Sum: ffafa1c201b23e6c6ac9a472ebbc4203
+RemoteMd5Sum: 
+IsExcludedFolder? Yes, .git/objects/ff
+IsExcludedFilePath? No
+IsExcludedFileType? No
+Excluded from uploads? Yes, excluded folder, .git/objects/ff
+Queued for uploading? No
+
 FilePath: .git\objects\ff\5933bc72405d8e8730d2822a88e1713fd65dd4
 FolderName: .git\objects\ff\
 FileName: 5933bc72405d8e8730d2822a88e1713fd65dd4
@@ -4178,7 +4356,7 @@ Queued for uploading? No
 FilePath: .git\refs\heads\main
 FolderName: .git\refs\heads\
 FileName: main
-LocalMd5Sum: 2a0cf6baaa158f7d014d8cda45fd51a8
+LocalMd5Sum: ee2864a308848675381b6fc9027bcd55
 RemoteMd5Sum: 
 IsExcludedFolder? Yes, .git/refs/heads
 IsExcludedFilePath? No
@@ -4366,23 +4544,23 @@ FilePath: admin\incFunctions.php
 FolderName: admin\
 FileName: incFunctions.php
 LocalMd5Sum: 7cf4891828eb61a9b0252ede46f3a3c9
-RemoteMd5Sum: 50cbf6e8eb049e8f7a7e3a79035e5f95
-IsExcludedFolder? No
-IsExcludedFilePath? No
-IsExcludedFileType? No
-Excluded from uploads? No
-Queued for uploading? Yes
-
-FilePath: admin\incHeader.php
-FolderName: admin\
-FileName: incHeader.php
-LocalMd5Sum: f0aae96145b7e1f92c77be0bbd61cbdb
-RemoteMd5Sum: f0aae96145b7e1f92c77be0bbd61cbdb
+RemoteMd5Sum: 7cf4891828eb61a9b0252ede46f3a3c9
 IsExcludedFolder? No
 IsExcludedFilePath? No
 IsExcludedFileType? No
 Excluded from uploads? No
 Queued for uploading? No
+
+FilePath: admin\incHeader.php
+FolderName: admin\
+FileName: incHeader.php
+LocalMd5Sum: f0aae96145b7e1f92c77be0bbd61cbdb
+RemoteMd5Sum: 89fb6ac8be64ff821bca927ae9341910
+IsExcludedFolder? No
+IsExcludedFilePath? No
+IsExcludedFileType? No
+Excluded from uploads? No
+Queued for uploading? Yes
 
 FilePath: admin\index.php
 FolderName: admin\
@@ -4509,12 +4687,12 @@ FilePath: admin\pageHome.php
 FolderName: admin\
 FileName: pageHome.php
 LocalMd5Sum: 9e6593ba6dda69435dd5affe1a323945
-RemoteMd5Sum: 9e6593ba6dda69435dd5affe1a323945
+RemoteMd5Sum: 73cfe6192bc5632a86d8e778fde6d0dd
 IsExcludedFolder? No
 IsExcludedFilePath? No
 IsExcludedFileType? No
 Excluded from uploads? No
-Queued for uploading? No
+Queued for uploading? Yes
 
 FilePath: admin\pageInstallPlugin.php
 FolderName: admin\
@@ -4596,8 +4774,8 @@ Queued for uploading? No
 FilePath: admin\pageServerStatus.php
 FolderName: admin\
 FileName: pageServerStatus.php
-LocalMd5Sum: 6d52d9b7a78127cf053af1d10b3e74c3
-RemoteMd5Sum: 0e1f6f15869e336932db678fdba3698b
+LocalMd5Sum: 8369899c2ad706df69d04b52d5790cee
+RemoteMd5Sum: 6d52d9b7a78127cf053af1d10b3e74c3
 IsExcludedFolder? No
 IsExcludedFilePath? No
 IsExcludedFileType? No
@@ -4718,12 +4896,12 @@ FilePath: admin\toolTipData.js
 FolderName: admin\
 FileName: toolTipData.js
 LocalMd5Sum: b7bf0c50062168f58932035208a179fc
-RemoteMd5Sum: 22f5af48941ca9ad46c8b3eae9cf6492
+RemoteMd5Sum: b7bf0c50062168f58932035208a179fc
 IsExcludedFolder? No
 IsExcludedFilePath? No
 IsExcludedFileType? No
 Excluded from uploads? No
-Queued for uploading? Yes
+Queued for uploading? No
 
 FilePath: admin\toolTips.js
 FolderName: admin\
@@ -4784,12 +4962,12 @@ FilePath: ajax_combo.php
 FolderName: 
 FileName: ajax_combo.php
 LocalMd5Sum: 97a77710fc5570d18fe6220406c0fcc5
-RemoteMd5Sum: fb391449a7e225f3b1d8bcb40d4bcaa4
+RemoteMd5Sum: 97a77710fc5570d18fe6220406c0fcc5
 IsExcludedFolder? No
 IsExcludedFilePath? No
 IsExcludedFileType? No
 Excluded from uploads? No
-Queued for uploading? Yes
+Queued for uploading? No
 
 FilePath: blank.gif
 FolderName: 
@@ -4861,12 +5039,12 @@ FilePath: common.js
 FolderName: 
 FileName: common.js
 LocalMd5Sum: b57196b148d233bec9f9ecaa04604d1a
-RemoteMd5Sum: 8e23c2e9068e34ea28982c9d3ead9d55
+RemoteMd5Sum: b57196b148d233bec9f9ecaa04604d1a
 IsExcludedFolder? No
 IsExcludedFilePath? No
 IsExcludedFileType? No
 Excluded from uploads? No
-Queued for uploading? Yes
+Queued for uploading? No
 
 FilePath: datalist.php
 FolderName: 
@@ -4916,12 +5094,12 @@ FilePath: definitions.php
 FolderName: 
 FileName: definitions.php
 LocalMd5Sum: c75886c99c583244dc6ab6d22601efa9
-RemoteMd5Sum: 5697b070a6afb335ea535c6b5485cd20
+RemoteMd5Sum: c75886c99c583244dc6ab6d22601efa9
 IsExcludedFolder? No
 IsExcludedFilePath? No
 IsExcludedFileType? No
 Excluded from uploads? No
-Queued for uploading? Yes
+Queued for uploading? No
 
 FilePath: Donations_autofill.php
 FolderName: 
@@ -4938,18 +5116,18 @@ FilePath: Donations_dml.php
 FolderName: 
 FileName: Donations_dml.php
 LocalMd5Sum: f6bdfceed71adf94ac72d303cbe9ad08
-RemoteMd5Sum: 0da73060f324a7dff867e5d8c68c469b
+RemoteMd5Sum: f6bdfceed71adf94ac72d303cbe9ad08
 IsExcludedFolder? No
 IsExcludedFilePath? No
 IsExcludedFileType? No
 Excluded from uploads? No
-Queued for uploading? Yes
+Queued for uploading? No
 
 FilePath: Donations_view.php
 FolderName: 
 FileName: Donations_view.php
-LocalMd5Sum: 37f2dfa588d92a77f6b8dfb435f8892d
-RemoteMd5Sum: 0cf3994568033dfa59a893ff3f2e4a93
+LocalMd5Sum: e1a1d6e667be2094aebed36084fe3394
+RemoteMd5Sum: 37f2dfa588d92a77f6b8dfb435f8892d
 IsExcludedFolder? No
 IsExcludedFilePath? No
 IsExcludedFileType? No
@@ -4960,12 +5138,12 @@ FilePath: dynamic.css
 FolderName: 
 FileName: dynamic.css
 LocalMd5Sum: 65da65a2d47870f6aed1027aa3a629c1
-RemoteMd5Sum: d3287c1b9eda02b6b06ab1372195273d
+RemoteMd5Sum: 65da65a2d47870f6aed1027aa3a629c1
 IsExcludedFolder? No
 IsExcludedFilePath? No
 IsExcludedFileType? No
 Excluded from uploads? No
-Queued for uploading? Yes
+Queued for uploading? No
 
 FilePath: footer.php
 FolderName: 
@@ -5004,12 +5182,12 @@ FilePath: home.php
 FolderName: 
 FileName: home.php
 LocalMd5Sum: 778effe02a46c0ca9e65ac766d0f2dc9
-RemoteMd5Sum: 197dbe858328a5851b5e47e03b0668d0
+RemoteMd5Sum: 778effe02a46c0ca9e65ac766d0f2dc9
 IsExcludedFolder? No
 IsExcludedFilePath? No
 IsExcludedFileType? No
 Excluded from uploads? No
-Queued for uploading? Yes
+Queued for uploading? No
 
 FilePath: hooks\AppGiniHelper.min.js
 FolderName: hooks\
@@ -5059,40 +5237,40 @@ FilePath: hooks\Donations.php
 FolderName: hooks\
 FileName: Donations.php
 LocalMd5Sum: e4b71e0b10cd88c93b582a808c658234
-RemoteMd5Sum: 79310cc8c31ccb7237711685cb6eb78a
+RemoteMd5Sum: e4b71e0b10cd88c93b582a808c658234
+IsExcludedFolder? No
+IsExcludedFilePath? No
+IsExcludedFileType? No
+Excluded from uploads? No
+Queued for uploading? No
+
+FilePath: hooks\Donations_filter.php
+FolderName: hooks\
+FileName: Donations_filter.php
+LocalMd5Sum: 6520a9e93b04febb4d7ef4acab1497ef
+RemoteMd5Sum: 91327bf6c985333d05e4ce6a09966d3c
 IsExcludedFolder? No
 IsExcludedFilePath? No
 IsExcludedFileType? No
 Excluded from uploads? No
 Queued for uploading? Yes
 
-FilePath: hooks\Donations_filter.php
-FolderName: hooks\
-FileName: Donations_filter.php
-LocalMd5Sum: 6520a9e93b04febb4d7ef4acab1497ef
-RemoteMd5Sum: 6520a9e93b04febb4d7ef4acab1497ef
-IsExcludedFolder? No
-IsExcludedFilePath? No
-IsExcludedFileType? No
-Excluded from uploads? No
-Queued for uploading? No
-
 FilePath: hooks\footer-extras.php
 FolderName: hooks\
 FileName: footer-extras.php
 LocalMd5Sum: d41d8cd98f00b204e9800998ecf8427e
-RemoteMd5Sum: d41d8cd98f00b204e9800998ecf8427e
+RemoteMd5Sum: f8c2eb0cea0d6fe66c0df7c1182587fe
 IsExcludedFolder? No
 IsExcludedFilePath? No
 IsExcludedFileType? No
 Excluded from uploads? No
-Queued for uploading? No
+Queued for uploading? Yes
 
 FilePath: hooks\header-extras.php
 FolderName: hooks\
 FileName: header-extras.php
 LocalMd5Sum: 5913f8ff371ef11b8e92803a82857048
-RemoteMd5Sum: d41d8cd98f00b204e9800998ecf8427e
+RemoteMd5Sum: cc95c3a305cc89250a21feceed15a296
 IsExcludedFolder? No
 IsExcludedFilePath? No
 IsExcludedFileType? No
@@ -5125,18 +5303,18 @@ FilePath: hooks\links-home.php
 FolderName: hooks\
 FileName: links-home.php
 LocalMd5Sum: 98164a3f094937a94497e616b730e42f
-RemoteMd5Sum: 4ba1d94b19eaf6f4a7617c618d082394
+RemoteMd5Sum: 98164a3f094937a94497e616b730e42f
 IsExcludedFolder? No
 IsExcludedFilePath? No
 IsExcludedFileType? No
 Excluded from uploads? No
-Queued for uploading? Yes
+Queued for uploading? No
 
 FilePath: hooks\links-navmenu.php
 FolderName: hooks\
 FileName: links-navmenu.php
 LocalMd5Sum: c50e253f43a51ed4aab029f28b63fcb8
-RemoteMd5Sum: e9e029b40c0ade256e1d6cd6b7dc09a8
+RemoteMd5Sum: ceb94aecf9242817719300e28442cb50
 IsExcludedFolder? No
 IsExcludedFilePath? No
 IsExcludedFileType? No
@@ -5158,12 +5336,12 @@ FilePath: hooks\Notes.php
 FolderName: hooks\
 FileName: Notes.php
 LocalMd5Sum: 6a36534352540d05ba0b83ffd3a17902
-RemoteMd5Sum: 60b52b42cf3762c7a18f20437559142e
+RemoteMd5Sum: 6a36534352540d05ba0b83ffd3a17902
 IsExcludedFolder? No
 IsExcludedFilePath? No
 IsExcludedFileType? No
 Excluded from uploads? No
-Queued for uploading? Yes
+Queued for uploading? No
 
 FilePath: hooks\Notes_filter.php
 FolderName: hooks\
@@ -5257,12 +5435,12 @@ FilePath: hooks\Supporters.php
 FolderName: hooks\
 FileName: Supporters.php
 LocalMd5Sum: 892f4736a5e454f13adf006930ca19ab
-RemoteMd5Sum: 892f4736a5e454f13adf006930ca19ab
+RemoteMd5Sum: 0bc27e692d2670ce2dc3161b98051500
 IsExcludedFolder? No
 IsExcludedFilePath? No
 IsExcludedFileType? No
 Excluded from uploads? No
-Queued for uploading? No
+Queued for uploading? Yes
 
 FilePath: hooks\Supporters_filter.php
 FolderName: hooks\
@@ -5323,18 +5501,18 @@ FilePath: import-csv.php
 FolderName: 
 FileName: import-csv.php
 LocalMd5Sum: fa43f06b58280ebde941502fcb065621
-RemoteMd5Sum: 1ec7a86d8eae519da327d9cfb6bd00bf
+RemoteMd5Sum: fa43f06b58280ebde941502fcb065621
 IsExcludedFolder? No
 IsExcludedFilePath? No
 IsExcludedFileType? No
 Excluded from uploads? No
-Queued for uploading? Yes
+Queued for uploading? No
 
 FilePath: incCommon.php
 FolderName: 
 FileName: incCommon.php
 LocalMd5Sum: db133122b17dfbf2491651bf3a5b4494
-RemoteMd5Sum: 1b94c5863bd6f61109e0fba6098187e6
+RemoteMd5Sum: 34b63a57d68d5cbcb82f9361b146293b
 IsExcludedFolder? No
 IsExcludedFilePath? No
 IsExcludedFileType? No
@@ -5356,12 +5534,12 @@ FilePath: index.php
 FolderName: 
 FileName: index.php
 LocalMd5Sum: 735ddb526394fe0836e14658382929b3
-RemoteMd5Sum: 735ddb526394fe0836e14658382929b3
+RemoteMd5Sum: 05cbee73d8e8067339cf245b48b13214
 IsExcludedFolder? No
 IsExcludedFilePath? No
 IsExcludedFileType? No
 Excluded from uploads? No
-Queued for uploading? No
+Queued for uploading? Yes
 
 FilePath: language.php
 FolderName: 
@@ -5389,12 +5567,12 @@ FilePath: link.php
 FolderName: 
 FileName: link.php
 LocalMd5Sum: 47b8e9f925105375d4cf0c300011eb53
-RemoteMd5Sum: 8e7476a31eac2de7f448457c598c2dcb
+RemoteMd5Sum: 47b8e9f925105375d4cf0c300011eb53
 IsExcludedFolder? No
 IsExcludedFilePath? No
 IsExcludedFileType? No
 Excluded from uploads? No
-Queued for uploading? Yes
+Queued for uploading? No
 
 FilePath: loading.gif
 FolderName: 
@@ -5462,9 +5640,9 @@ IsExcludedFileType? No
 Excluded from uploads? No
 Queued for uploading? No
 
-FilePath: md5s.688220.tmp.tmp
+FilePath: md5s.453915.tmp.tmp
 FolderName: 
-FileName: md5s.688220.tmp.tmp
+FileName: md5s.453915.tmp.tmp
 LocalMd5Sum: d41d8cd98f00b204e9800998ecf8427e
 RemoteMd5Sum: 
 IsExcludedFolder? No
@@ -5554,23 +5732,23 @@ FilePath: Notes_dml.php
 FolderName: 
 FileName: Notes_dml.php
 LocalMd5Sum: b931e8b20ebb92a1240011baa08f6db6
-RemoteMd5Sum: 5eaf306f190acd71440aed6a683f9199
+RemoteMd5Sum: b931e8b20ebb92a1240011baa08f6db6
 IsExcludedFolder? No
 IsExcludedFilePath? No
 IsExcludedFileType? No
 Excluded from uploads? No
-Queued for uploading? Yes
+Queued for uploading? No
 
 FilePath: Notes_view.php
 FolderName: 
 FileName: Notes_view.php
 LocalMd5Sum: 54e5a91fe2a1dbfa720c13a1d2d1d6c0
-RemoteMd5Sum: 67b2dd477a64119fc6d461c2e6f15783
+RemoteMd5Sum: 54e5a91fe2a1dbfa720c13a1d2d1d6c0
 IsExcludedFolder? No
 IsExcludedFilePath? No
 IsExcludedFileType? No
 Excluded from uploads? No
-Queued for uploading? Yes
+Queued for uploading? No
 
 FilePath: parent-children.php
 FolderName: 
@@ -7160,23 +7338,23 @@ FilePath: templates\children-Donations-printable.php
 FolderName: templates\
 FileName: children-Donations-printable.php
 LocalMd5Sum: a5787d21cf5ef428ce99618972820a01
-RemoteMd5Sum: 819f5874d522e7f7b3b92a3b98839fc5
+RemoteMd5Sum: a5787d21cf5ef428ce99618972820a01
 IsExcludedFolder? No
 IsExcludedFilePath? No
 IsExcludedFileType? No
 Excluded from uploads? No
-Queued for uploading? Yes
+Queued for uploading? No
 
 FilePath: templates\children-Donations.php
 FolderName: templates\
 FileName: children-Donations.php
 LocalMd5Sum: 275248edd3a5bdc5d95bae020ae94c04
-RemoteMd5Sum: a197140889b8ac3df23d91a8e04c9190
+RemoteMd5Sum: 275248edd3a5bdc5d95bae020ae94c04
 IsExcludedFolder? No
 IsExcludedFilePath? No
 IsExcludedFileType? No
 Excluded from uploads? No
-Queued for uploading? Yes
+Queued for uploading? No
 
 FilePath: templates\children-MatchingFunds-printable.php
 FolderName: templates\
@@ -7270,56 +7448,56 @@ FilePath: templates\Donations-ajax-cache.php
 FolderName: templates\
 FileName: Donations-ajax-cache.php
 LocalMd5Sum: b7d0eb5ff6cd6cd6d9caa244bd471e62
-RemoteMd5Sum: 751f295e5730abb06c44ee3ff3f10461
+RemoteMd5Sum: b7d0eb5ff6cd6cd6d9caa244bd471e62
 IsExcludedFolder? No
 IsExcludedFilePath? No
 IsExcludedFileType? No
 Excluded from uploads? No
-Queued for uploading? Yes
+Queued for uploading? No
 
 FilePath: templates\Donations_templateDV.html
 FolderName: templates\
 FileName: Donations_templateDV.html
 LocalMd5Sum: 9d712dce88f60a287bb9748e25c82f24
-RemoteMd5Sum: 6e05d63a14e9d5d48770ee3e2bf03689
+RemoteMd5Sum: 9d712dce88f60a287bb9748e25c82f24
 IsExcludedFolder? No
 IsExcludedFilePath? No
 IsExcludedFileType? No
 Excluded from uploads? No
-Queued for uploading? Yes
+Queued for uploading? No
 
 FilePath: templates\Donations_templateDVP.html
 FolderName: templates\
 FileName: Donations_templateDVP.html
 LocalMd5Sum: 4eb5ff71cbb49678b4149d92dc2db8ef
-RemoteMd5Sum: 80fd98fd61aa298c4fbe63ad507dea32
+RemoteMd5Sum: 4eb5ff71cbb49678b4149d92dc2db8ef
 IsExcludedFolder? No
 IsExcludedFilePath? No
 IsExcludedFileType? No
 Excluded from uploads? No
-Queued for uploading? Yes
+Queued for uploading? No
 
 FilePath: templates\Donations_templateTV.html
 FolderName: templates\
 FileName: Donations_templateTV.html
 LocalMd5Sum: 43e7dfaf9e8b8002213818bf9dab4b9f
-RemoteMd5Sum: 44960f4103e56a4881163a5393420e74
+RemoteMd5Sum: 43e7dfaf9e8b8002213818bf9dab4b9f
 IsExcludedFolder? No
 IsExcludedFilePath? No
 IsExcludedFileType? No
 Excluded from uploads? No
-Queued for uploading? Yes
+Queued for uploading? No
 
 FilePath: templates\Donations_templateTVS.html
 FolderName: templates\
 FileName: Donations_templateTVS.html
 LocalMd5Sum: 0c5f403ec1d1d47ae0116f4feef04827
-RemoteMd5Sum: 6138053310ea6c079989e10a4b65a398
+RemoteMd5Sum: 0c5f403ec1d1d47ae0116f4feef04827
 IsExcludedFolder? No
 IsExcludedFilePath? No
 IsExcludedFileType? No
 Excluded from uploads? No
-Queued for uploading? Yes
+Queued for uploading? No
 
 FilePath: templates\index.html
 FolderName: templates\
@@ -7402,12 +7580,12 @@ FilePath: templates\Notes_templateDV.html
 FolderName: templates\
 FileName: Notes_templateDV.html
 LocalMd5Sum: 4657f41dff88648a180b77d4bd6e3e1d
-RemoteMd5Sum: 618bb2acabc3f88066e007408c0a7737
+RemoteMd5Sum: 4657f41dff88648a180b77d4bd6e3e1d
 IsExcludedFolder? No
 IsExcludedFilePath? No
 IsExcludedFileType? No
 Excluded from uploads? No
-Queued for uploading? Yes
+Queued for uploading? No
 
 FilePath: templates\Notes_templateDVP.html
 FolderName: templates\
@@ -7424,12 +7602,12 @@ FilePath: templates\Notes_templateTV.html
 FolderName: templates\
 FileName: Notes_templateTV.html
 LocalMd5Sum: 886ec948c6628698c1aad0f09b350906
-RemoteMd5Sum: f2f46c81aa2f345a8bde50ea03175969
+RemoteMd5Sum: 886ec948c6628698c1aad0f09b350906
 IsExcludedFolder? No
 IsExcludedFilePath? No
 IsExcludedFileType? No
 Excluded from uploads? No
-Queued for uploading? Yes
+Queued for uploading? No
 
 FilePath: templates\Notes_templateTVS.html
 FolderName: templates\
@@ -7567,17 +7745,17 @@ FilePath: updateDB.php
 FolderName: 
 FileName: updateDB.php
 LocalMd5Sum: 252c43332e27463a81e541e80d3dd708
-RemoteMd5Sum: 86ad459f6d00de35581cf87e9d45b78c
+RemoteMd5Sum: 252c43332e27463a81e541e80d3dd708
 IsExcludedFolder? No
 IsExcludedFilePath? No
 IsExcludedFileType? No
 Excluded from uploads? No
-Queued for uploading? Yes
+Queued for uploading? No
 
 FilePath: upload.log
 FolderName: 
 FileName: upload.log
-LocalMd5Sum: 360e91358eef730fe0e3290fecb2e658
+LocalMd5Sum: b35abc78404212cb307b705ca8fc3ac8
 RemoteMd5Sum: 
 IsExcludedFolder? No
 IsExcludedFilePath? No
@@ -7628,6 +7806,7 @@ Maintenance mode: On
 .git\objects\0c\827200c6eef7d7ce17ea14ae1f8c05068a0fcc (skipped -- excluded folder, .git/objects/0c)
 .git\objects\0c\ab4bf9c31353d84904dfad259562e9c19bbc0e (skipped -- excluded folder, .git/objects/0c)
 .git\objects\0e\35eca5e646f585560b973b48ab0c8e10a5f497 (skipped -- excluded folder, .git/objects/0e)
+.git\objects\0e\700c620d96d5417a4d31a759e5aa55423d70a2 (skipped -- excluded folder, .git/objects/0e)
 .git\objects\0e\a5c445700b2aee69e65e1c71232a6b300256b2 (skipped -- excluded folder, .git/objects/0e)
 .git\objects\0f\ea11da4aaf2b77f94a73a886084e04ce7454b6 (skipped -- excluded folder, .git/objects/0f)
 .git\objects\10\0afcbfa24b2d4b45a244248dffe5580b27de05 (skipped -- excluded folder, .git/objects/10)
@@ -7660,6 +7839,7 @@ Maintenance mode: On
 .git\objects\22\db2240edf90a2a954a054962e23373f9cd4d5d (skipped -- excluded folder, .git/objects/22)
 .git\objects\22\e7f3143247ce755848f19ecc187f4f844e904b (skipped -- excluded folder, .git/objects/22)
 .git\objects\23\d699483605f8f1bac1343c3ed03aebc1fff6fa (skipped -- excluded folder, .git/objects/23)
+.git\objects\24\924294b7cf8700df49770988597dbcc3dcda4a (skipped -- excluded folder, .git/objects/24)
 .git\objects\25\602966c833662d15943ff1ef5824ce5d80712e (skipped -- excluded folder, .git/objects/25)
 .git\objects\25\7cfd52498fbf9b422b69bce4cd54959bde174c (skipped -- excluded folder, .git/objects/25)
 .git\objects\27\03c213dc85bbfb54bdc969b8ea601d8db3da3d (skipped -- excluded folder, .git/objects/27)
@@ -7688,6 +7868,7 @@ Maintenance mode: On
 .git\objects\38\04582303e675dd28289d1568659533f88bef0d (skipped -- excluded folder, .git/objects/38)
 .git\objects\38\197dfe5fb786b7e1ed0cd4b32aa3dce243d6c3 (skipped -- excluded folder, .git/objects/38)
 .git\objects\3a\36543b93928fcca8cb1ec69443b9f5b9b261f0 (skipped -- excluded folder, .git/objects/3a)
+.git\objects\3a\4658cc97ffb4df63b4dd59dba0155cbd5ae752 (skipped -- excluded folder, .git/objects/3a)
 .git\objects\3a\f2e3575a89f9c311ef27e42ad71075f359c0e0 (skipped -- excluded folder, .git/objects/3a)
 .git\objects\3b\fab4360ad60241ad4363674e206a7bb50043a1 (skipped -- excluded folder, .git/objects/3b)
 .git\objects\3c\691072027b5f0dae0f748b77e7da5fb6fb3a0b (skipped -- excluded folder, .git/objects/3c)
@@ -7695,10 +7876,12 @@ Maintenance mode: On
 .git\objects\40\32f5fad71cd03acf3127e30513571503b8b6be (skipped -- excluded folder, .git/objects/40)
 .git\objects\42\e3c4d5699dff645730bed431e73755114eb432 (skipped -- excluded folder, .git/objects/42)
 .git\objects\43\5abb2d5315856fa2a3e8eda5dd0d9b58a13c84 (skipped -- excluded folder, .git/objects/43)
+.git\objects\44\5f13395f305e2029638670d595025af0668fcb (skipped -- excluded folder, .git/objects/44)
 .git\objects\45\532fb4d227eba916a4f5e2bc1db7c1d6f64871 (skipped -- excluded folder, .git/objects/45)
 .git\objects\45\94e3bab320159ebf0b1b0b205a5d82627e9be4 (skipped -- excluded folder, .git/objects/45)
 .git\objects\45\ff012f33a578a55e710e8cceabf75feb6e208f (skipped -- excluded folder, .git/objects/45)
 .git\objects\49\62d9614c5286575cdadcd60d075d22e6d1c6f5 (skipped -- excluded folder, .git/objects/49)
+.git\objects\4a\153a3735424adfe3cc3a7b8e9cfdfc2970b7c4 (skipped -- excluded folder, .git/objects/4a)
 .git\objects\4a\1c17cf273da4c82ffedf97c35aab8e48d87cf9 (skipped -- excluded folder, .git/objects/4a)
 .git\objects\4b\6f7454877bcba9b79fe8434aa3edaf817506a6 (skipped -- excluded folder, .git/objects/4b)
 .git\objects\4b\dd5c961d452c49dfa0789c2c7ffb82c238fc24 (skipped -- excluded folder, .git/objects/4b)
@@ -7740,6 +7923,7 @@ Maintenance mode: On
 .git\objects\65\a21b4bbbef076402d7f157b7a2a660a5bf6a33 (skipped -- excluded folder, .git/objects/65)
 .git\objects\66\5205b99e1638c6ce50af8cf3c386f9aad48b5d (skipped -- excluded folder, .git/objects/66)
 .git\objects\66\6fe3267b5cb2869ca2c58bf061e12c0e029c1c (skipped -- excluded folder, .git/objects/66)
+.git\objects\67\32c76080219994224b3c80de8a26098829f766 (skipped -- excluded folder, .git/objects/67)
 .git\objects\68\5ae45baf779b2a410d986ad293b22769f83668 (skipped -- excluded folder, .git/objects/68)
 .git\objects\68\97c8ad2cacd0859814abe48f32ea752237dac0 (skipped -- excluded folder, .git/objects/68)
 .git\objects\68\a94cd1d9270850570fe6f6d26424b938dd0459 (skipped -- excluded folder, .git/objects/68)
@@ -7761,12 +7945,14 @@ Maintenance mode: On
 .git\objects\74\9ec5aa22307e35ec950274e421f09df4b5db71 (skipped -- excluded folder, .git/objects/74)
 .git\objects\75\cab7d38fe475dc6ed6644d48ac6e1de04bbec4 (skipped -- excluded folder, .git/objects/75)
 .git\objects\75\f39f7a1b090bd17dc4b464a8259f565d9780ed (skipped -- excluded folder, .git/objects/75)
+.git\objects\76\89042563a97c3319ebdf7d7be417a90ba805b2 (skipped -- excluded folder, .git/objects/76)
 .git\objects\77\9bec4ea70119e41858e0d8baba5192a80502d2 (skipped -- excluded folder, .git/objects/77)
 .git\objects\77\d58c24ec03a0cfca05b81f9497e864fe409aec (skipped -- excluded folder, .git/objects/77)
 .git\objects\78\bff81416eed593ca7cb9fead34c2f8d0e6dfb5 (skipped -- excluded folder, .git/objects/78)
 .git\objects\79\127e34492531766179ed95ac691e94d3e80993 (skipped -- excluded folder, .git/objects/79)
 .git\objects\79\93309719a73259204db305e5b2e56d4a739d5d (skipped -- excluded folder, .git/objects/79)
 .git\objects\7a\1813e9e41ac2eebd970f34671ddd89dbf0140e (skipped -- excluded folder, .git/objects/7a)
+.git\objects\7b\32d2d6522443d9019c3bd2d763742cc57070b9 (skipped -- excluded folder, .git/objects/7b)
 .git\objects\7b\4e9dffd07739864b5079aefd6241fabef1e081 (skipped -- excluded folder, .git/objects/7b)
 .git\objects\7b\cd693aa8e335276c7373be3beea89d3179aa4b (skipped -- excluded folder, .git/objects/7b)
 .git\objects\7b\dc75d9dc2f0dcdb2f3a674f03b0549e9677bad (skipped -- excluded folder, .git/objects/7b)
@@ -7796,6 +7982,7 @@ Maintenance mode: On
 .git\objects\92\aa78526634f47e30ba9d1be79d11dd4337535b (skipped -- excluded folder, .git/objects/92)
 .git\objects\94\8573cf5a028659d0df41cafb8732ed7eaa1cc4 (skipped -- excluded folder, .git/objects/94)
 .git\objects\94\fb5490a2ed10b2c69a4a567a4fd2e4f706d841 (skipped -- excluded folder, .git/objects/94)
+.git\objects\96\2c0ef71816151d26135748d85962f0ca1da132 (skipped -- excluded folder, .git/objects/96)
 .git\objects\96\3e37d254cb3ee3083e1eb0427b92074d1f1cf4 (skipped -- excluded folder, .git/objects/96)
 .git\objects\96\afd9b09488cfc5aa2747c1dca0038d7bbabcea (skipped -- excluded folder, .git/objects/96)
 .git\objects\97\242a0ef63fd343a7fe1456dd7152f4422fd9d8 (skipped -- excluded folder, .git/objects/97)
@@ -7843,12 +8030,15 @@ Maintenance mode: On
 .git\objects\b7\105ee41517d7a21ed6bba6018e4a3cb17ce00b (skipped -- excluded folder, .git/objects/b7)
 .git\objects\b8\6ee0a5d3849f8d6a4bc28c1430f92ab8195352 (skipped -- excluded folder, .git/objects/b8)
 .git\objects\b9\3a4953fff68df523aa7656497ee339d6026d64 (skipped -- excluded folder, .git/objects/b9)
+.git\objects\ba\47d1cebfd6ee019289c90ebb3ad4495ebe3dd1 (skipped -- excluded folder, .git/objects/ba)
 .git\objects\ba\5caf02835f123a96454ef6f62739bb8b0e23cb (skipped -- excluded folder, .git/objects/ba)
 .git\objects\ba\778a801848bf557015cb68f3c9e0302600ce1b (skipped -- excluded folder, .git/objects/ba)
 .git\objects\bc\e819d23189a25d573fb0a9431e0e715aca333f (skipped -- excluded folder, .git/objects/bc)
 .git\objects\bd\39ca7349e91a468b18ab17f015c52db4a39b41 (skipped -- excluded folder, .git/objects/bd)
 .git\objects\bd\b9b8771c7ffb786272ec26e2757214a48e0483 (skipped -- excluded folder, .git/objects/bd)
+.git\objects\be\2e1bda156bfb9352c7bdd7b2ac146af2cb46ea (skipped -- excluded folder, .git/objects/be)
 .git\objects\bf\d54cdcb78a1adba373b37ea9e0d406d10f29c8 (skipped -- excluded folder, .git/objects/bf)
+.git\objects\c0\790b9ea7a3e9d4fe7e9c580722028f50d32198 (skipped -- excluded folder, .git/objects/c0)
 .git\objects\c2\a0332ab953830bae4899f845d717bf7bb8c7bf (skipped -- excluded folder, .git/objects/c2)
 .git\objects\c3\6d35f67dda24ffb23de94f9f58b721f0329f7a (skipped -- excluded folder, .git/objects/c3)
 .git\objects\c4\2c44c827b8ddd62b6e1176f9543c663d78d83b (skipped -- excluded folder, .git/objects/c4)
@@ -7863,9 +8053,12 @@ Maintenance mode: On
 .git\objects\c9\8ced39f6f6b509c71dce92c141377f193c691a (skipped -- excluded folder, .git/objects/c9)
 .git\objects\ca\5a47c365154b30c7ca344fb7fd1643a211e545 (skipped -- excluded folder, .git/objects/ca)
 .git\objects\cb\059cfa3c56a6e98366e7060e5cb8d075acb1f3 (skipped -- excluded folder, .git/objects/cb)
+.git\objects\cb\7cf828de75e7380d4706a3c883fbfb854f4c23 (skipped -- excluded folder, .git/objects/cb)
 .git\objects\cb\ae232f51ae97840a165760e8e91f6f98c37892 (skipped -- excluded folder, .git/objects/cb)
 .git\objects\cc\9063bfa134f26b44fd7e13a9012b8f0cc16764 (skipped -- excluded folder, .git/objects/cc)
 .git\objects\cd\33a5df5cb0401c714351c7a948c191feab81de (skipped -- excluded folder, .git/objects/cd)
+.git\objects\cd\7d80724577fc68ecae3791afae1f770f4d5781 (skipped -- excluded folder, .git/objects/cd)
+.git\objects\ce\6e9d16c86e27a4044e93f0e9e5e40b491b8263 (skipped -- excluded folder, .git/objects/ce)
 .git\objects\d0\62a6f2a2653a8305ff42b239f15b8c0f19670c (skipped -- excluded folder, .git/objects/d0)
 .git\objects\d0\960aae0ef94c5b76d79739a61eea25d817e1cb (skipped -- excluded folder, .git/objects/d0)
 .git\objects\d2\15ea69eb66579451c14c5827e5bd7b810bdd87 (skipped -- excluded folder, .git/objects/d2)
@@ -7926,6 +8119,7 @@ Maintenance mode: On
 .git\objects\fd\d5270d1d681a2c3a4ae3a0da057519fc11cdd7 (skipped -- excluded folder, .git/objects/fd)
 .git\objects\fe\39acbfb78b9bba5422a995431012d2b89240dc (skipped -- excluded folder, .git/objects/fe)
 .git\objects\fe\3ab87bb19190a5c954a8cb3a6b33c20999bdd9 (skipped -- excluded folder, .git/objects/fe)
+.git\objects\ff\0228de85701ed5a44d71a6b0928b1738853c32 (skipped -- excluded folder, .git/objects/ff)
 .git\objects\ff\5933bc72405d8e8730d2822a88e1713fd65dd4 (skipped -- excluded folder, .git/objects/ff)
 .git\objects\ff\72b330a84c86b5b0980b55a57f7f1dd0dac30a (skipped -- excluded folder, .git/objects/ff)
 .git\refs\heads\main (skipped -- excluded folder, .git/refs/heads)
@@ -7945,8 +8139,8 @@ admin\images\member_icon.gif (skipped -- unchanged)
 admin\images\stop_icon.gif (skipped -- unchanged)
 admin\incCommon.php (skipped -- unchanged)
 admin\incFooter.php (skipped -- unchanged)
-admin\incFunctions.php (updated)
-admin\incHeader.php (skipped -- unchanged)
+admin\incFunctions.php (skipped -- unchanged)
+admin\incHeader.php (updated)
 admin\index.php (skipped -- unchanged)
 admin\pageAssignOwners.php (skipped -- unchanged)
 admin\pageBackupRestore.php (skipped -- unchanged)
@@ -7958,7 +8152,7 @@ admin\pageEditGroup.php (skipped -- unchanged)
 admin\pageEditMember.php (skipped -- unchanged)
 admin\pageEditMemberPermissions.php (skipped -- unchanged)
 admin\pageEditOwnership.php (skipped -- unchanged)
-admin\pageHome.php (skipped -- unchanged)
+admin\pageHome.php (updated)
 admin\pageInstallPlugin.php (skipped -- unchanged)
 admin\pageMail.php (skipped -- unchanged)
 admin\pagePrintRecord.php (skipped -- unchanged)
@@ -7977,47 +8171,47 @@ admin\pageUploadCSV.php (skipped -- unchanged)
 admin\pageViewGroups.php (skipped -- unchanged)
 admin\pageViewMembers.php (skipped -- unchanged)
 admin\pageViewRecords.php (skipped -- unchanged)
-admin\toolTipData.js (updated)
+admin\toolTipData.js (skipped -- unchanged)
 admin\toolTips.js (skipped -- unchanged)
 ajax-update-calculated-fields.php (skipped -- unchanged)
 ajax_admin_tools.php (skipped -- unchanged)
 ajax_check_login.php (skipped -- unchanged)
 ajax_check_unique.php (skipped -- unchanged)
-ajax_combo.php (updated)
+ajax_combo.php (skipped -- unchanged)
 blank.gif (skipped -- unchanged)
 Campaigns_autofill.php (skipped -- unchanged)
 Campaigns_dml.php (skipped -- unchanged)
 Campaigns_view.php (skipped -- unchanged)
 checkMemberID.php (skipped -- unchanged)
 cli-update-calculated-fields.php (skipped -- unchanged)
-common.js (updated)
+common.js (skipped -- unchanged)
 datalist.php (skipped -- unchanged)
 db.php (skipped -- unchanged)
 defaultFilters.php (skipped -- unchanged)
 defaultLang.php (skipped -- unchanged)
-definitions.php (updated)
+definitions.php (skipped -- unchanged)
 Donations_autofill.php (skipped -- unchanged)
-Donations_dml.php (updated)
+Donations_dml.php (skipped -- unchanged)
 Donations_view.php (updated)
-dynamic.css (updated)
+dynamic.css (skipped -- unchanged)
 footer.php (skipped -- unchanged)
 handshake.svg (skipped -- unchanged)
 header.php (skipped -- unchanged)
-home.php (updated)
+home.php (skipped -- unchanged)
 hooks\AppGiniHelper.min.js (skipped -- unchanged)
 hooks\Campaigns.php (skipped -- unchanged)
 hooks\Campaigns_filter.php (skipped -- unchanged)
 hooks\Donations-dv.js (skipped -- unchanged)
-hooks\Donations.php (updated)
-hooks\Donations_filter.php (skipped -- unchanged)
-hooks\footer-extras.php (skipped -- unchanged)
+hooks\Donations.php (skipped -- unchanged)
+hooks\Donations_filter.php (updated)
+hooks\footer-extras.php (updated)
 hooks\header-extras.php (updated)
 hooks\index.html (skipped -- unchanged)
 hooks\language-summary-reports.php (skipped -- unchanged)
-hooks\links-home.php (updated)
+hooks\links-home.php (skipped -- unchanged)
 hooks\links-navmenu.php (updated)
 hooks\MatchingFunds.php (skipped -- unchanged)
-hooks\Notes.php (updated)
+hooks\Notes.php (skipped -- unchanged)
 hooks\Notes_filter.php (skipped -- unchanged)
 hooks\README.html (skipped -- unchanged)
 hooks\Settings.php (skipped -- unchanged)
@@ -8026,26 +8220,26 @@ hooks\summary-reports-list.php (skipped -- unchanged)
 hooks\SummaryReport.php (skipped -- unchanged)
 hooks\summary_reports-logo-md.png (skipped -- unchanged)
 hooks\Supporters-dv.js (skipped -- unchanged)
-hooks\Supporters.php (skipped -- unchanged)
+hooks\Supporters.php (updated)
 hooks\Supporters_filter.php (skipped -- unchanged)
 hooks\__global.php (skipped -- unchanged)
 images\blank.gif (skipped -- unchanged)
 images\index.html (skipped -- unchanged)
 import-csv\index.html (skipped -- excluded folder, import-csv)
-import-csv.php (updated)
+import-csv.php (skipped -- unchanged)
 incCommon.php (updated)
 index.html (skipped -- unchanged)
-index.php (skipped -- unchanged)
+index.php (updated)
 language.php (skipped -- unchanged)
 lib.php (skipped -- unchanged)
-link.php (updated)
+link.php (skipped -- unchanged)
 loading.gif (skipped -- unchanged)
 login.php (skipped -- unchanged)
 logo.png (skipped -- unchanged)
 MatchingFunds_autofill.php (skipped -- unchanged)
 MatchingFunds_dml.php (skipped -- unchanged)
 MatchingFunds_view.php (skipped -- unchanged)
-md5s.688220.tmp.tmp (skipped -- excluded file type)
+md5s.453915.tmp.tmp (skipped -- excluded file type)
 membership_passwordReset.php (skipped -- unchanged)
 membership_profile.php (skipped -- unchanged)
 membership_signup.php (skipped -- unchanged)
@@ -8053,8 +8247,8 @@ membership_thankyou.php (skipped -- unchanged)
 nicEdit.js (skipped -- unchanged)
 nicEditorIcons.gif (skipped -- unchanged)
 Notes_autofill.php (skipped -- unchanged)
-Notes_dml.php (updated)
-Notes_view.php (updated)
+Notes_dml.php (skipped -- unchanged)
+Notes_view.php (skipped -- unchanged)
 parent-children.php (skipped -- unchanged)
 photo.gif (skipped -- unchanged)
 resources\bootstrap-datetimepicker\bootstrap-datetimepicker.css (skipped -- unchanged)
@@ -8199,8 +8393,8 @@ templates\Campaigns_templateTV.html (skipped -- unchanged)
 templates\Campaigns_templateTVS.html (skipped -- unchanged)
 templates\children-Campaigns-printable.php (skipped -- unchanged)
 templates\children-Campaigns.php (skipped -- unchanged)
-templates\children-Donations-printable.php (updated)
-templates\children-Donations.php (updated)
+templates\children-Donations-printable.php (skipped -- unchanged)
+templates\children-Donations.php (skipped -- unchanged)
 templates\children-MatchingFunds-printable.php (skipped -- unchanged)
 templates\children-MatchingFunds.php (skipped -- unchanged)
 templates\children-Notes-printable.php (skipped -- unchanged)
@@ -8209,11 +8403,11 @@ templates\children-Settings-printable.php (skipped -- unchanged)
 templates\children-Settings.php (skipped -- unchanged)
 templates\children-Supporters-printable.php (skipped -- unchanged)
 templates\children-Supporters.php (skipped -- unchanged)
-templates\Donations-ajax-cache.php (updated)
-templates\Donations_templateDV.html (updated)
-templates\Donations_templateDVP.html (updated)
-templates\Donations_templateTV.html (updated)
-templates\Donations_templateTVS.html (updated)
+templates\Donations-ajax-cache.php (skipped -- unchanged)
+templates\Donations_templateDV.html (skipped -- unchanged)
+templates\Donations_templateDVP.html (skipped -- unchanged)
+templates\Donations_templateTV.html (skipped -- unchanged)
+templates\Donations_templateTVS.html (skipped -- unchanged)
 templates\index.html (skipped -- unchanged)
 templates\MatchingFunds-ajax-cache.php (skipped -- unchanged)
 templates\MatchingFunds_templateDV.html (skipped -- unchanged)
@@ -8221,9 +8415,9 @@ templates\MatchingFunds_templateDVP.html (skipped -- unchanged)
 templates\MatchingFunds_templateTV.html (skipped -- unchanged)
 templates\MatchingFunds_templateTVS.html (skipped -- unchanged)
 templates\Notes-ajax-cache.php (skipped -- unchanged)
-templates\Notes_templateDV.html (updated)
+templates\Notes_templateDV.html (skipped -- unchanged)
 templates\Notes_templateDVP.html (skipped -- unchanged)
-templates\Notes_templateTV.html (updated)
+templates\Notes_templateTV.html (skipped -- unchanged)
 templates\Notes_templateTVS.html (skipped -- unchanged)
 templates\Settings-ajax-cache.php (skipped -- unchanged)
 templates\Settings_templateDV.html (skipped -- unchanged)
@@ -8236,8 +8430,8 @@ templates\Supporters_templateDVP.html (skipped -- unchanged)
 templates\Supporters_templateTV.html (skipped -- unchanged)
 templates\Supporters_templateTVS.html (skipped -- unchanged)
 thumbnail.php (skipped -- unchanged)
-updateDB.php (updated)
+updateDB.php (skipped -- unchanged)
 upload.log (skipped -- excluded file type)
 Maintenance mode: Off
 
-Finshed processing 650 files!  Uploaded: 30, Skipped: 620, Failed: 0
+Finshed processing 666 files!  Uploaded: 11, Skipped: 655, Failed: 0

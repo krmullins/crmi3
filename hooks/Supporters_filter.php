@@ -59,10 +59,58 @@
 		
 				
 		<input type="hidden" name="FilterAnd[1]" value="and">
-		<input type="hidden" name="FilterField[1]" value="19">  
+		<input type="hidden" name="FilterField[1]" value="21">  
 		<input type="hidden" name="FilterOperator[1]" value="like">
 		<div class="col-md-8 col-lg-6 vspacer-md">
 			<input type="text" class="form-control" name="FilterValue[1]" value="<?php echo htmlspecialchars($FilterValue[1]); ?>" size="3">
+		</div>
+		
+		
+		<div class="col-xs-3 col-xs-offset-9 col-md-offset-0 col-md-1">
+			<button type="button" class="btn btn-default vspacer-md btn-block" title='Clear fields' onclick="clearFilters($j(this).parent());" ><span class="glyphicon glyphicon-trash text-danger"></button>
+		</div>
+
+			</div>
+
+
+		
+			<!-- ########################################################## -->
+					
+	<div class="row vspacer-lg" style="border-bottom: dotted 2px #DDD;" >
+		
+		<div class="hidden-xs hidden-sm col-md-3 vspacer-lg text-right"><label for="">Business</label></div>
+		<div class="hidden-md hidden-lg col-xs-12 vspacer-lg"><label for="">Business</label></div>
+		
+				
+		<input type="hidden" name="FilterAnd[2]" value="and">
+		<input type="hidden" name="FilterField[2]" value="5">  
+		<input type="hidden" name="FilterOperator[2]" value="like">
+		<div class="col-md-8 col-lg-6 vspacer-md">
+			<input type="text" class="form-control" name="FilterValue[2]" value="<?php echo htmlspecialchars($FilterValue[2]); ?>" size="3">
+		</div>
+		
+		
+		<div class="col-xs-3 col-xs-offset-9 col-md-offset-0 col-md-1">
+			<button type="button" class="btn btn-default vspacer-md btn-block" title='Clear fields' onclick="clearFilters($j(this).parent());" ><span class="glyphicon glyphicon-trash text-danger"></button>
+		</div>
+
+			</div>
+
+
+		
+			<!-- ########################################################## -->
+					
+	<div class="row vspacer-lg" style="border-bottom: dotted 2px #DDD;" >
+		
+		<div class="hidden-xs hidden-sm col-md-3 vspacer-lg text-right"><label for="">Grouping</label></div>
+		<div class="hidden-md hidden-lg col-xs-12 vspacer-lg"><label for="">Grouping</label></div>
+		
+				
+		<input type="hidden" name="FilterAnd[3]" value="and">
+		<input type="hidden" name="FilterField[3]" value="17">  
+		<input type="hidden" name="FilterOperator[3]" value="like">
+		<div class="col-md-8 col-lg-6 vspacer-md">
+			<input type="text" class="form-control" name="FilterValue[3]" value="<?php echo htmlspecialchars($FilterValue[3]); ?>" size="3">
 		</div>
 		
 		
@@ -82,11 +130,11 @@
 		<div class="hidden-md hidden-lg col-xs-12 vspacer-lg"><label for="">City</label></div>
 		
 				
-		<input type="hidden" name="FilterAnd[2]" value="and">
-		<input type="hidden" name="FilterField[2]" value="7">  
-		<input type="hidden" name="FilterOperator[2]" value="like">
+		<input type="hidden" name="FilterAnd[4]" value="and">
+		<input type="hidden" name="FilterField[4]" value="8">  
+		<input type="hidden" name="FilterOperator[4]" value="like">
 		<div class="col-md-8 col-lg-6 vspacer-md">
-			<input type="text" class="form-control" name="FilterValue[2]" value="<?php echo htmlspecialchars($FilterValue[2]); ?>" size="3">
+			<input type="text" class="form-control" name="FilterValue[4]" value="<?php echo htmlspecialchars($FilterValue[4]); ?>" size="3">
 		</div>
 		
 		
@@ -114,9 +162,9 @@
 
 			
 				//convert value to select2 format
-				if ($FilterValue[3]) {
+				if ($FilterValue[5]) {
 					$filtervalueObj = new stdClass();
-					$text = htmlspecialchars($FilterValue[3]);
+					$text = htmlspecialchars($FilterValue[5]);
 					$filtervalueObj->text = $text;
 					$filtervalueObj->id = array_search($text, $options);
 
@@ -130,13 +178,13 @@
 		
 				
 		<div class="col-md-8 col-lg-6 vspacer-md">	
-			<div id="8_DropDown"><span></span></div>
+			<div id="9_DropDown"><span></span></div>
 		</div>
-		<input type="hidden" class="populatedOptionsData" name="3" value="<?php echo htmlspecialchars($FilterValue[3]); ?>" >
-		<input type="hidden" name="FilterAnd[3]" value="and">
-		<input type="hidden" name="FilterField[3]" value="8">
-		<input type="hidden" name="FilterOperator[3]" value="equal-to">
-		<input type="hidden" name="FilterValue[3]" id="8_currValue" value="<?php echo htmlspecialchars($FilterValue[3]); ?>" size="3">
+		<input type="hidden" class="populatedOptionsData" name="5" value="<?php echo htmlspecialchars($FilterValue[5]); ?>" >
+		<input type="hidden" name="FilterAnd[5]" value="and">
+		<input type="hidden" name="FilterField[5]" value="9">
+		<input type="hidden" name="FilterOperator[5]" value="equal-to">
+		<input type="hidden" name="FilterValue[5]" id="9_currValue" value="<?php echo htmlspecialchars($FilterValue[5]); ?>" size="3">
 
 		
 		<div class="col-xs-3 col-xs-offset-9 col-md-offset-0 col-md-1">
@@ -146,72 +194,67 @@
 			</div>
 
 	<script>
-		var populate_8 = <?php echo $filtervalueObj ;?>		
+		var populate_9 = <?php echo $filtervalueObj ;?>		
 		$j(function () {
-			$j("#8_DropDown").select2({
+			$j("#9_DropDown").select2({
 				data: <?php echo $optionsList; ?>}).on('change', function (e) {
-				$j("#8_currValue").val(e.added.text);
+				$j("#9_currValue").val(e.added.text);
 			});
 
 
 			/* preserve the applied filter and show it when re-opening the filters page */
-			if ($j("#8_currValue").val().length) {
-				$j("#8_DropDown").select2('data', populate_8 );
+			if ($j("#9_currValue").val().length) {
+				$j("#9_DropDown").select2('data', populate_9 );
 			}
 		});
 	</script>
 			
 			<!-- ########################################################## -->
-					
-	<div class="row vspacer-lg" style="border-bottom: dotted 2px #DDD;" >
+			
+	<div class="row" style="border-bottom: dotted 2px #DDD;">
 		
-		<div class="hidden-xs hidden-sm col-md-3 vspacer-lg text-right"><label for="">Zip</label></div>
-		<div class="hidden-md hidden-lg col-xs-12 vspacer-lg"><label for="">Zip</label></div>
+		<div class="hidden-xs hidden-sm col-md-3 vspacer-lg text-right"><label for="">Status</label></div>
+		<div class="hidden-md hidden-lg col-xs-12 vspacer-lg"><label for="">Status</label></div>
 		
-				
-		<input type="hidden" name="FilterAnd[4]" value="and">
-		<input type="hidden" name="FilterField[4]" value="9">  
-		<input type="hidden" name="FilterOperator[4]" value="like">
-		<div class="col-md-8 col-lg-6 vspacer-md">
-			<input type="text" class="form-control" name="FilterValue[4]" value="<?php echo htmlspecialchars($FilterValue[4]); ?>" size="3">
-		</div>
 		
+		<input type="hidden" class="optionsData" name="FilterField[6]" value="15">
+		<div class="col-xs-10 col-sm-11 col-md-8 col-lg-6">
+
+			<input type="hidden" name="FilterAnd[6]" value="and">
+			<input type="hidden" name="FilterOperator[6]" value="equal-to">
+			<input type="hidden" name="FilterValue[6]" id="15_currValue" value="<?php echo htmlspecialchars($FilterValue[6]); ?>" size="3">
+
+	
+			<div class="radio">
+				<label>
+					 <input type="radio" name="FilterValue[6]" class="filter_15" value='Active'>Active				</label>
+			</div>
+	 
+			<div class="radio">
+				<label>
+					 <input type="radio" name="FilterValue[6]" class="filter_15" value='Inactive'>Inactive				</label>
+			</div>
+	 		</div>
+
 		
 		<div class="col-xs-3 col-xs-offset-9 col-md-offset-0 col-md-1">
 			<button type="button" class="btn btn-default vspacer-md btn-block" title='Clear fields' onclick="clearFilters($j(this).parent());" ><span class="glyphicon glyphicon-trash text-danger"></button>
 		</div>
 
 			</div>
-
-
-		
-			<!-- ########################################################## -->
-					
-	<div class="row vspacer-lg" style="border-bottom: dotted 2px #DDD;" >
-		
-		<div class="hidden-xs hidden-sm col-md-3 vspacer-lg text-right"><label for="">Email</label></div>
-		<div class="hidden-md hidden-lg col-xs-12 vspacer-lg"><label for="">Email</label></div>
-		
-				
-		<input type="hidden" name="FilterAnd[5]" value="and">
-		<input type="hidden" name="FilterField[5]" value="13">  
-		<input type="hidden" name="FilterOperator[5]" value="like">
-		<div class="col-md-8 col-lg-6 vspacer-md">
-			<input type="text" class="form-control" name="FilterValue[5]" value="<?php echo htmlspecialchars($FilterValue[5]); ?>" size="3">
-		</div>
-		
-		
-		<div class="col-xs-3 col-xs-offset-9 col-md-offset-0 col-md-1">
-			<button type="button" class="btn btn-default vspacer-md btn-block" title='Clear fields' onclick="clearFilters($j(this).parent());" ><span class="glyphicon glyphicon-trash text-danger"></button>
-		</div>
-
-			</div>
-
-
-		
+	<script>
+		//for population
+		var filterValue_15 = '<?php echo htmlspecialchars($FilterValue[ 6 ]); ?>';
+		$j(function () {
+			if (filterValue_15) {
+				$j("input[class =filter_15][value ='" + filterValue_15 + "']").prop("checked", true);
+			}
+		})
+	</script>
+			
 			<!-- ########################################################## -->
 			
-		<?php $si = 6; ?>
+		<?php $si = 7; ?>
 		<?php for($afi = $si; $afi <= 12; $afi++) { ?>
 			<!-- advanced filter <?php echo $afi; ?> -->
 			<input type="hidden" name="FilterAnd[<?php echo $afi; ?>]" value="<?php echo html_attr(Request::val('FilterAnd')[$afi]); ?>">

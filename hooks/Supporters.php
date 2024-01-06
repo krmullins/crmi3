@@ -128,7 +128,7 @@
 
 			function print_invoice(){
 				var selectedID = '<?php echo urlencode($selectedID); ?>';
-				var year = '2020'
+				var year = '2023'
 				window.location = 'donations_invoice.php?SupporterID=' + selectedID + '&DonationYear=' + year;
 			}
 		</script>
